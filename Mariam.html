@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Mariam</title>
+    <link rel="stylesheet" href="./mariam.css">
+</head>
+<style>
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body a{
+    text-decoration: none;
+}
+body ul li{
+    list-style-type: none;
+}
+.top-header img{
+    width: 135px;
+}
+.buy{
+    height: 55px;
+}
+.main{
+    height: 100%;
+    margin-left: 100px;
+    transition: all 0.5s ease;
+}
+.header-left{
+    width: 100px;
+    height: 100vh;
+    border-right: 1px solid #F8F9FA;
+}
+.header{
+    position: fixed;
+    background-color: #fff;
+    z-index: 999;
+    transition: all 0.5s ease;
+}
+.header-container{
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    width: 100px;
+}
+.header-nav{
+    transform: rotate(90deg) translateX(-54%);
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: -5px;
+    justify-content: center;
+}
+.nav{
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+}
+.nav-item{
+    transform: rotate(-180deg);
+    position: relative;
+    margin: 0 13px;
+}
+.header ul li a:hover{
+    color: #F2BD3E;
+}
+.freelancer{
+    background-image: url(image/bg-1.jpg);
+}
+.free{
+    height: 92.9vh;
+    background-size: cover;
+    background-position: center center;
+    padding: 0 30px;
+    position: relative;
+    z-index: 1;
+}
+.freelancer ul li a{
+    color: #454545;
+}
+.freelancer ul li a:hover{
+    color: #F2BD3E;
+}
+.freelancer .container{
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+}
+.freelancer h1 > span{
+    position: relative;
+    display: inline-block;
+    height: 1.20em;
+    vertical-align: bottom;
+    overflow: hidden;
+}
+.freelancer h1 > span > span{
+    display: block;
+    animation: animatewords 4s infinite ease;}
+@keyframes animatewords{
+    0%{transform: translateY(0%);}
+    25%{transform: translateY(-100%);}
+    50%{transform: translateY(-200%);}
+    75%{transform: translateY(-300%);}
+    100%{transform: translateY(-400%);}
+}
+.freelancer .heading,.about h2,h3,h1,h4,h6{
+    font-weight: 900;
+}
+/* .animate{
+    min-width: 280px;
+}
+.animate span{
+    position: relative;
+}
+
+.animate span::before{
+    content: "Developer";
+    color: #F2BD3E;
+    animation: words 12s infinite;
+}
+.animate span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%; 
+    background-color: #fbfdfff5;
+    border-left: 2px solid #F2BD3E;
+    right: -8px;
+    
+    animation: cursor 1.6s infinite, typing 18s steps(15) infinite;
+}
+@keyframes cursor{
+    to{
+      border-left: 2px solid #F2BD3E;
+    }
+}
+@keyframes words{
+   0%,33%{
+    content: "Developer";  
+   }
+   34%,67%{
+    content: "Designer";  
+   }
+   68%,99%{
+    content: "Freelancer"; 
+     
+   }
+  
+}
+@keyframes typing{
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+} */
+.freelancer .there{
+    margin-top: 180px;
+}
+.freelancer .info{
+    margin-top: 180px;
+}
+.freelancer .btn{
+    background-color: #F2BD3E;
+    color: white;
+    padding: 10px 24px;
+}
+.my .gool{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid #152035;
+    display: block;
+    position: relative;
+    margin-top: 12px;
+}
+.my .gool:after{
+    position: absolute;
+    content: "";
+    left: -6px;
+    top: 2px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #F2BD3E;
+    z-index: -1;
+}
+.about .image-1{
+    width: 100%;
+    height: 410px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 24px;
+    background-image: url(image/img-1.jpg);
+}
+.about .hello,.card{
+    background-color: #F8F9FA;
+    padding: 29px;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 24px;
+}
+.about .btn{
+    background-color: #F2BD3E;
+    color: white;
+    padding: 10px 24px;
+}
+.about .projects{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+}
+.about .gmail{
+    color: #454545;
+}
+.about .gmail:hover{
+    color: #F2BD3E;
+}
+.about .timeline img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #F2BD3E;
+}
+.about .jun{
+    font-size: 14px;
+}
+.service h2,h5{
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.service-light h2,h5,.testi h2,.blog h2,.footer h2{
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.service,.testi,.footer{
+    background-color: #F8F9FA; 
+    padding: 100px 30px 76px 30px;
+}
+.service .app,.footer .app{
+    background-color: #fff;
+}
+.service .card:hover{
+    transition: .5s;
+    box-shadow: 0px 0px 15px 0px #ddd6d8;
+}
+.portfolio h2{
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.portfolio .plus-btn{
+     background-color: #F2BD3E;
+     text-align: center;
+     color: #fff;
+     border-radius: 50%;
+     font-size: 26px;
+    padding: 1px 4px 2px 5px;
+}
+.portfolio .plus{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    opacity: 0;
+}
+.portfolio .links{
+    background-color: #F8F9FA; 
+    text-align: center;
+    color:  #454545;
+    border-radius: 50%;
+    font-size: 26px;
+    padding: 1px 4px 2px 5px;
+}
+.portfolio .card:hover{
+    transition: .7s;
+    box-shadow: 0px 0px 10px 0px #ddd6d8;
+}
+.portfolio .card:hover .plus{
+    opacity: 1;
+}
+.portfolio .card img{
+    transition: 1s;
+}
+.portfolio .card:hover img{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.our{
+    color: #F2BD3E;
+}
+.testi img{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+.testi .image-4{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #D9D9D9;
+    position: relative;
+    box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+}
+.testi .bubble{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    display: block;
+    position: absolute;
+    bottom: 12px;
+    right: 0;
+}
+.testi .card:hover .bubble{
+    color: #F2BD3E;
+}
+.testi .content{
+    font-style: italic;
+    font-size: 18px;
+    color: #2e2d2d;
+}
+.testi .card-white{
+    background-color: #fff;
+}
+.testi .card:hover .image-4{
+    border: 2px solid #F2BD3E;
+}
+.blog .btn-1{
+    background-color: #F2BD3E;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 15px;
+}
+.blog .btn-1:hover{
+    color: #454545;
+}
+.blog .btn,.footer .btn{
+    background-color: #F2BD3E;
+    color: #fff;
+    padding: 10px 24px;
+    font-size: 17px;
+}
+.blog .date{
+    font-size: 12px;
+    margin-top: 2px;
+}
+.blog .card img{
+    transition: 0.8s;
+}
+.blog .card:hover img{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.footer .form-control{
+    border-radius: 10px;
+    padding: 12px 20px;
+    border-color: #D9D9D9
+}
+.footer ul li a:hover{
+    color: #F2BD3E;
+}
+.footer ul li a,.pho{
+    color: #454545;
+}
+body .btn:hover{
+    background-color: #343a40;
+    transition: 0.8s ease-in-out;
+}
+.footer .gool{
+    width: 22px;
+    height: 22px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 12px;
+    z-index: 5;
+}
+.footer .gool-1{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    position: absolute;
+    left: -6px;
+    top: 2px;
+    background-color: #F2BD3E;
+    z-index: 1;
+}
+
+@media only screen and (max-width:991px) {
+    
+    .main{
+     margin-left: 0px;
+    }
+    .header-left{
+        transform: translateX(0px);
+        border-right: 0px;
+        width: 0px !important;
+        height: 0px !important;
+        position: relative;
+    }
+    .second-nav{
+        height: 50px !important;
+        width: 100% !important;
+    
+    .left{
+        flex-wrap: nowrap !important;
+    }
+    }
+    .header-nav{
+        transform: rotate(0deg) translateX(0);
+        position: absolute;
+        top: 150px;
+        width: 100%;
+        left: 500px;
+        justify-content: center;
+        overflow-y: unset;
+    }
+    .nav-item{
+        transform: rotate(0deg);
+        margin: 0 13px;
+    }
+    .nav{
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+    }
+    .navbar-toggler,.btn-close{
+        position: absolute;
+        left: 40rem;
+    }
+    .offcanvas-backdrop {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+    }
+    .offcanvas-backdrop.show {
+        opacity: 5;
+    }
+}
+@media only screen and (max-width:768px) {
+
+    .header-nav{
+        top: 150px;
+        width: 100%;
+        left: 400px;
+        overflow-y: unset;
+    }
+    .navbar-toggler,.btn-close{
+        position: absolute;
+        left: 28rem;
+    }
+}
+@media only screen and (max-width:576px) {
+
+    .header-nav{
+        left: 250px;
+        overflow-y: unset;
+    }
+    .navbar-toggler,.btn-close{
+        position: absolute;
+        left: 15rem;
+    }
+}
+</style>
+<body>
+    <section class="top-header ">
+        <nav class="navbar p-0">
+            <div class="container-fluid bg-dark buy px-0 px-md-0">
+              <a class="navbar-brand" href="#">
+                <img src="https://public-assets.envato-static.com/assets/logos/envato_market-dd390ae860330996644c1c109912d2bf63885fc075b87215ace9b5b4bdc71cc8.svg" class="ms-3" alt="">
+               </a>
+               <div class="btn btn-success px-4 me-2">Buy now</div>
+             </div>
+          </nav>
+</section>
+
+  <header class="header  header-left ">
+    <nav class="navbar navbar-expand-lg header-container second-nav">
+        <div class="container-fluid left px-0">
+          <a class="navbar-brand me-lg-0 ms-auto ms-lg-4 d-none d-lg-block" href="#"><img src="Image/M.png" alt="" class="logo "></a>
+          <button class="navbar-toggler bg-warning  ms-1 button-1 mt-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> 
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              
+              <button type="button" class="btn-close mt-4 ms-1 border-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body header-nav">
+              <ul class="navbar-nav nav ">
+                <li class="nav-item">
+                  <a class="nav-link  fw-medium" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-medium" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-medium " href="#">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-medium" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-medium" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-medium" href="#">Contact</a>
+                  </li>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+</header>
+<div class="main">
+<section class="freelancer free px-3">
+           <div class="container px-0 px-md-0">
+                       
+
+                          <div class="row pt-4">
+                            <div class="social px-0">
+                              <ul class="media-icon d-flex ps-3">
+                                <li><a href="#" class="me-1"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="#" class="mx-1"><i class="bi bi-twitter-x"></i></a></li>
+                                <li><a href="#" class="mx-1"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="#" class="mx-1"><i class="bi bi-dribbble"></i></a></li>
+                                <li><a href="#" class="ms-1"><i class="bi bi-github"></i></a></li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div class="there">
+                              <h5 class="paraghraph fw-medium">Hi There,</h5>
+                            <div class="animate">
+                              <h1 class="heading">I Am a 
+                                
+                                <!-- <span></span> -->
+
+                                <span>
+                                 <span>Developer</span>
+                                 <span>Designer</span>
+                                 <span>Freelancer</span>
+                                </span>
+                               </h1> 
+                            </div>
+                              <p class="paraghraph fw-medium mt-3 mb-0">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing pretium <br> lacus.
+                             </p>
+                              <div class="btn fw-medium border-0 mt-4"><i class="bi bi-person-circle me-1"></i>More About Me</div>
+                         </div>
+
+                       
+                          <div class="info d-flex">
+                            <div class="email pe-4">
+                              <p class="mb-0 fw-medium">Email:</p>
+                              <p class="mb-0">contact@mariam.com</p>
+                           </div>
+                      
+                           <div class="phone pe-4  d-none d-sm-block">
+                              <p class="mb-0 fw-medium">Phone:</p>
+                              <p class="mb-0">+113-804-9098</p>
+                           </div>
+                      
+                           <div class="location pe-4  d-none d-sm-block">
+                              <p class="mb-0 fw-medium">Location:</p>
+                              <p class="mb-0">California ,USA</p>
+                           </div>
+                      </div>
+      
+
+      </div>     
+</section>
+<section class="about pt-5 mt-5 my">
+       <div class="container">
+                    <div class="box-1 d-flex">
+                        <div class="gool me-1"></div>
+                            <div class="heading">
+                                <h2 class="">About me</h2>
+                                <p class="fw-medium text-dark-emphasis">Main Informations About Me And What I Love To Do.</p>
+                              </div>
+                          </div>
+                      <div class="row px-0 mt-4">
+                            <div class="col-xl-5">
+                              <div class="card card-img image-1 border-0 m-0">
+                               
+                              </div>
+                          </div>
+                          <div class="col-xl-7 m-0 pt-4 py-xl-0">
+                            <div class="hello m-0">
+                              <h3 class=" lh-base">Hello,<br>I'm Mariam Wallas, Based in Canada</h3>
+                              <p class="">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fringilla pretium lacus, eu luctus neque ultricies a. Phasellus
+                                  faucibus orci a purus mattis tincidunt ut non nulla.
+                                  Donec ullamcorper sapien eget neque facilisis euismod. 
+                               </p>
+                              <div class="box-2 d-sm-flex justify-content-between mt-4">
+                                <div class="british ">
+                                  <ul class="m-0 p-0">
+                                    <li class="mb-2"><span class="fw-medium">Phone</span> : + 113-804-9098</li>
+                                    <li class="mb-2"><span class="fw-medium">Nationality</span> : British</li>
+                                    <li class="mb-2"><span class="fw-medium">skype</span> :  mariam.wallas</li>
+                                  </ul>
+                                </div>
+                                <div class="skype">
+                                  <ul class="m-0 ps-0 pe-5">
+                                   <li class="mb-2"><span class="fw-medium">Email</span> :<a href="#" class="gmail"> contact@mariam.com</a></li>
+                                   <li class="mb-2"><span class="fw-medium">Address</span> : 1000 Proctor St USA</li>
+                                   <li class="mb-2"><span class="fw-medium">Freelancer</span> :  Available</li>
+                                 </ul>
+                                </div>
+                              </div>
+                                  <div class="btn fw-medium border-0 mt-4"> <i class="bi bi-cloud-arrow-down-fill me-1"></i>Downland My CV</div>
+                           </div>
+                        </div>
+                    </div>
+                     <div class="row mt-4">
+                       <div class="col-lg-3 col-sm-6" >
+                         <div class="card projects">
+                            <h1 class="m-0">+70</h1>
+                            <p class="m-0">Completed Projects</p>
+                        </div>
+                      </div>
+                     <div class="col-lg-3 col-sm-6 " >
+                         <div class="card projects">
+                            <h1 class="m-0">+50</h1>
+                            <p class="m-0">Happy Customers</p>
+                         </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 " >
+                         <div class="card projects">
+                            <h1 class="m-0">+07</h1>
+                            <p class="m-0"> Years of experience</p>
+                         </div>
+                      </div>
+                     <div class="col-lg-3 col-sm-6" >
+                         <div class="card projects ">
+                            <h1 class="m-0">+15</h1>
+                            <p class="m-0">awards won</p>
+                         </div>
+                      </div>
+                  </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                      <div class="timeline card">
+                          <h4 class="heading-1 mb-4"> Experience</h4>
+                        <div class="box-3 d-flex mb-4">
+                           <div class="image-2"> <img src="image/img-2.png" alt="" class=""></div>
+                           <div class="content ps-3">
+                               <h6 class="m-0 fs-5">Senior Web Developer</h6>
+                              <p class="mb-0 mt-1">
+                               <span class="spotify fw-bold">Spotify .</span>&nbsp;&nbsp;<span class="fw-bold">Full time</span>                      
+                             </p>
+                             <div>
+                              <span class="jun">Jun 2019 - Present</span>  <span class="jun"> 4 years 9 mos</span>                      
+                             </div>
+                           </div>
+                        </div>
+                        <div class="box-3 d-flex mb-4">
+                          <div class="image-2"> <img src="image/img-2.png" alt="" class=""></div>
+                          <div class="content ps-3">
+                              <h6 class="m-0 fs-5">Mid-Level Web Developer</h6>
+                             <p class="mb-0 mt-1">
+                              <span class="spotify fw-bold">Spotify .</span>&nbsp;&nbsp;<span class="fw-bold">Full time</span>                      
+                            </p>
+                            <div>
+                             <span class="jun">Jun 2019 - Present</span>  <span class="jun"> 4 years 9 mos</span>                      
+                            </div>
+                          </div>
+                       </div>
+                       <div class="box-3 d-flex mb-4">
+                        <div class="image-2"> <img src="image/img-2.png" alt="" class=""></div>
+                        <div class="content ps-3">
+                            <h6 class="m-0 fs-5">Junoir Web Developer</h6>
+                           <p class="mb-0 mt-1">
+                            <span class="spotify fw-bold">Spotify .</span>&nbsp;&nbsp;<span class="fw-bold">Full time</span>                      
+                          </p>
+                          <div>
+                           <span class="jun">Jun 2019 - Present</span>  <span class="jun"> 4 years 9 mos</span>                      
+                          </div>
+                        </div>
+                     </div>
+                  </div>
+              </div>
+              <div class="col-lg-6">
+                  <div class="timeline card">
+                          <h4 class="heading-1 mb-4"> Education</h4>
+                        <div class="box-3 d-flex mb-4">
+                           <div class="image-2"> <img src="image/img-3.png" alt="" class=""></div>
+                           <div class="content ps-3">
+                               <h6 class="m-0 fs-5">Senior Web Developer</h6>
+                              <p class="mb-0 mt-1">
+                               <span class="spotify fw-bold">Spotify .</span>&nbsp;&nbsp;<span class="fw-bold">Full time</span>                      
+                             </p>
+                             <div>
+                              <span class="jun">Jun 2019 - Present</span>  <span class="jun"> 4 years 9 mos</span>                      
+                             </div>
+                           </div>
+                        </div>
+                        <div class="box-3 d-flex mb-4">
+                          <div class="image-2"> <img src="image/img-3.png" alt="" class=""></div>
+                          <div class="content ps-3">
+                              <h6 class="m-0 fs-5">Mid-Level Web Developer</h6>
+                             <p class="mb-0 mt-1">
+                              <span class="spotify fw-bold">Spotify .</span>&nbsp;&nbsp;<span class="fw-bold">Full time</span>                      
+                            </p>
+                            <div>
+                             <span class="jun">Jun 2019 - Present</span>  <span class="jun"> 4 years 9 mos</span>                      
+                            </div>
+                          </div>
+                       </div>
+                       <div class="box-3 d-flex mb-4">
+                        <div class="image-2"> <img src="image/img-3.png" alt="" class=""></div>
+                        <div class="content ps-3">
+                            <h6 class="m-0 fs-5">Junoir Web Developer</h6>
+                           <p class="mb-0 mt-1">
+                            <span class="spotify fw-bold">Spotify .</span>&nbsp;&nbsp;<span class="fw-bold">Full time</span>                      
+                          </p>
+                          <div>
+                           <span class="jun">Jun 2019 - Present</span>  <span class="jun"> 4 years 9 mos</span>                      
+                          </div>
+                        </div>
+                     </div>
+                  </div>
+              </div>
+          </div>
+    </div>
+</section>
+<section class="service service-light my mt-5">
+          <div class="container">
+                      <div class="box-4 d-flex">
+                        <div class="gool me-1"></div>
+                            <div class="heading">
+                                <h2 class="">MY Services</h2>
+                                <p class="fw-medium text-dark-emphasis">I Have Worked With A Number Of Clients..</p>
+                              </div>
+                          </div>
+            <div class="row mt-4">
+              <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="app card ">
+                  <img src="image/img-4.png" alt="" class="card-img p-3">
+                  <div class="contentte text-center">
+                    <h5 class="mt-2"> App Design & Develop</h5>
+                    <p class="mt-3 mb-0 lh-base">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit praesentium aut repellendus rem non repudiandae sint dolor illo officia dignissimos
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="app card ">
+                  <img src="image/img-5.png" alt="" class="card-img p-3">
+                  <div class="contentte text-center">
+                    <h5 class="mt-2">Business Analysis</h5>
+                    <p class="mt-3 mb-0 lh-base">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit praesentium aut repellendus rem non repudiandae sint dolor illo officia dignissimos
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="app card ">
+                  <img src="image/img-6.png" alt="" class="card-img p-3">
+                  <div class="contentte text-center">
+                    <h5 class="mt-2">SEO Marketing</h5>
+                    <p class="mt-3 mb-0 lh-base">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit praesentium aut repellendus rem non repudiandae sint dolor illo officia dignissimos
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="app card ">
+                  <img src="image/img-7.png" alt="" class="card-img p-3">
+                  <div class="contentte text-center">
+                    <h5 class="mt-2">Graphic Design</h5>
+                    <p class="mt-3 mb-0 lh-base">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit praesentium aut repellendus rem non repudiandae sint dolor illo officia dignissimos
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="app card ">
+                  <img src="image/img-8.png" alt="" class="card-img p-3">
+                  <div class="contentte text-center">
+                    <h5 class="mt-2">Web Development</h5>
+                    <p class="mt-3 mb-0 lh-base">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit praesentium aut repellendus rem non repudiandae sint dolor illo officia dignissimos
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="app card ">
+                  <img src="image/img-9.png" alt="" class="card-img p-3">
+                  <div class="contentte text-center">
+                    <h5 class="mt-2">Branding</h5>
+                    <p class="mt-3 mb-0 lh-base">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit praesentium aut repellendus rem non repudiandae sint dolor illo officia dignissimos
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  </div>
+</section>
+<section class="portfolio my mt-5 pt-5 px-4">
+               <div class="container">
+                      <div class="box-5 d-flex">
+                        <div class="gool me-1"></div>
+                            <div class="heading">
+                                <h2 class="">My Portfolio</h2>
+                                <p class="fw-medium text-dark-emphasis">A Latest Creative Works in Design And Web .</p>
+                              </div>
+                          </div>
+                  <div class="row mt-4">
+                          <div class="col-xl-4 col-lg-6 col-md-6 ">
+                              <div class="card card-light">
+                                  <div class="image-3 overflow-hidden">
+                                        <img class="card-img overflow-hidden" src="image/img-10.jpg"/>
+                                      <div class="plus">
+                                        <a href="#" class="plus-btn"> <i class="bi bi-plus"></i></a>
+                                      </div>
+                                    </div>
+                                    <div class="box-5 d-flex justify-content-between">
+                                      <div class="content">
+                                        <h5 class="mb-0 mt-4">Mobile App</h5>
+                                        <p class="m-0 mt-1">App design</p>
+                                      </div>
+                                      <div class="link mt-4">
+                                        <a class="links" href="#"><i class="bi bi-arrow-up-right-circle"></i></a>
+                                      </div> 
+                                  </div>
+                              </div>
+                            </div>
+                    
+                            <div class="col-xl-4 col-lg-6 col-md-6 ">
+                                <div class="card card-light">
+                                  <div class="image-3 overflow-hidden">
+                                      <img class="card-img overflow-hidden" src="image/img-11.jpg"/>
+                                    <div class="plus">
+                                      <a href="#" class="plus-btn"> <i class="bi bi-plus"></i></a>
+                                    </div>
+                                  </div>
+                                  <div class="box-5 d-flex justify-content-between">
+                                    <div class="content">
+                                      <h5 class="mb-0 mt-4">Weblap App</h5>
+                                      <p class="m-0 mt-1">Web design</p>
+                                    </div>
+                                    <div class="link mt-4">
+                                      <a class="links" href="#"><i class="bi bi-arrow-up-right-circle"></i></a>
+                                    </div> 
+                                </div>
+                            </div>
+                         </div>
+
+                         <div class="col-xl-4 col-lg-6 col-md-6 ">
+                            <div class=" card card-light">
+                                <div class="image-3 overflow-hidden">
+                                    <img class="card-img overflow-hidden" src="image/img-12.jpg"/>
+                                  <div class="plus">
+                                    <a href="#" class="plus-btn"> <i class="bi bi-plus"></i></a>
+                                  </div>
+                                </div>
+                                <div class="box-5 d-flex justify-content-between">
+                                  <div class="content">
+                                    <h5 class="mb-0 mt-4">Cosmetic App</h5>
+                                    <p class="m-0 mt-1">App design</p>
+                                  </div>
+                                  <div class="link mt-4">
+                                    <a class="links" href="#"><i class="bi bi-arrow-up-right-circle"></i></a>
+                                  </div> 
+                              </div>
+                           </div>
+                       </div>
+
+                       <div class="col-xl-4 col-lg-6 col-md-6 ">
+                          <div class=" card card-light">
+                              <div class="image-3 overflow-hidden" >
+                                  <img class="card-img overflow-hidden" src="image/img-13.jpg"/>
+                                <div class="plus">
+                                  <a href="#" class="plus-btn"> <i class="bi bi-plus"></i></a>
+                                </div>
+                              </div>
+                              <div class="box-5 d-flex justify-content-between">
+                                <div class="content">
+                                  <h5 class="mb-0 mt-4">Umberalla App</h5>
+                                  <p class="m-0 mt-1">Web design</p>
+                                </div>
+                                <div class="link mt-4">
+                                  <a class="links" href="#"><i class="bi bi-arrow-up-right-circle"></i></a>
+                                </div> 
+                            </div>
+                          </div>
+                      </div>
+
+                      <div class="col-xl-4 col-lg-6 col-md-6 ">
+                        <div class=" card card-light ">
+                            <div class="image-3 overflow-hidden" >
+                                <img class="card-img" src="image/img-14.jpg"/>
+                              <div class="plus">
+                                <a href="#" class="plus-btn"> <i class="bi bi-plus"></i></a>
+                              </div>
+                            </div>
+                            <div class="box-5 d-flex justify-content-between">
+                              <div class="content">
+                                <h5 class="mb-0 mt-4">Umberalla App</h5>
+                                <p class="m-0 mt-1">Web design</p>
+                              </div>
+                              <div class="link mt-4">
+                                <a class="links" href="#"><i class="bi bi-arrow-up-right-circle"></i></a>
+                              </div> 
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                      <div class=" card card-light ">
+                          <div class="image-3 overflow-hidden" >
+                              <img class="card-img " src="image/img-15.jpg"/>
+                            <div class="plus">
+                              <a href="#" class="plus-btn"> <i class="bi bi-plus"></i></a>
+                            </div>
+                          </div>
+                          <div class="box-5 d-flex justify-content-between">
+                            <div class="content">
+                              <h5 class="mb-0 mt-4">E-commerce app</h5>
+                              <p class="m-0 mt-1">App design</p>
+                            </div>
+                            <div class="link mt-4">
+                              <a class="links" href="#"><i class="bi bi-arrow-up-right-circle"></i></a>
+                            </div> 
+                        </div>
+                      </div>
+                  </div>
+
+            </div>
+            <div class="for text-center">For More Works Visit <a href="#"> <span class="our">Our Portfolio</span></a></div>
+       </div>
+</section>
+<section class="testi my mt-5 pt-5">
+             <div class="container">
+                          <div class="box-6 d-flex">
+                            <div class="gool  gool-1 me-1"></div>
+                                <div class="heading">
+                                    <h2 class="">My Testimonials</h2>
+                                    <p class="fw-medium text-dark-emphasis">What My Clients Say About Me .</p>
+                                  </div>
+                              </div>
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3 mt-4">
+                            <div class="col">
+                                <div class=" card card-white align-items-center">
+                                  <div class="image-4">
+                                     <img src="image/img-17.jpg" class="card-img" alt="">
+                                     <div class="bubble"></div>
+                                  </div>
+                                     <p class="content text-center mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, soluta rerum molestias optio distinctio blanditiis cupiditate</p>
+                                  <div class="text-center">
+                                     <p class="m-0"><span class="fw-bold">Amar Smith &nbsp;.</span>   &nbsp;<span>Priduct manager</span></p>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                              <div class=" card card-white align-items-center">
+                                <div class="image-4">
+                                   <img src="image/img-18.jpg" class="card-img" alt="">
+                                   <div class="bubble"></div>
+                                </div>
+                                   <p class="content text-center mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, soluta rerum molestias optio distinctio blanditiis cupiditate</p>
+                                <div class="text-center">
+                                   <p class="m-0"><span class="fw-bold">Amar Smith &nbsp;.</span>   &nbsp;<span>Priduct manager</span></p>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="col">
+                            <div class=" card card-white align-items-center">
+                              <div class="image-4">
+                                 <img src="image/img-19.jpg" class="card-img" alt="">
+                                 <div class="bubble"></div>
+                              </div>
+                                 <p class="content text-center mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, soluta rerum molestias optio distinctio blanditiis cupiditate</p>
+                              <div class="text-center">
+                                 <p class="m-0"><span class="fw-bold">Amar Smith &nbsp;.</span>   &nbsp;<span>Priduct manager</span></p>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                   </div>
+</section>
+<section class="blog my mt-5 pt-5">
+          <div class="container">
+                        <div class="box-7 d-flex">
+                          <div class="gool me-1"></div>
+                              <div class="heading">
+                                  <h2 class="">My Blog</h2>
+                                  <p class="fw-medium text-dark-emphasis">The Last Posts About Graphic And Web Design.</p>
+                                </div>
+                            </div>
+                <div class="row mt-4">
+                        <div class="col-lg-6 col-md-6">
+                             <div class="blog card ">
+                                <div class="image-5 overflow-hidden">
+                                    <img class="card-img" src="image/img-20.jpg" alt="">
+                                  </div>
+                                  <div class="content">
+                                  <div class="web d-flex mt-4">
+                                      <a href="#"> <div class="btn-1 border-0  px-3 py-1">Web Design</div></a>
+                                    <div class="date ms-2">
+                                        <span>Jan 13,2024 .</span><span> 3 Min Read</span>
+                                    </div>
+                                 </div>
+                                    <h4 class="mt-4 lh-base">
+                                      <a href="#" class="text-dark">What's The Different Between Graphic And Web Design</a>
+                                    </h4>
+                                    <div class="btn border-0 mt-4">Read More<i class="bi bi-arrow-up-right-circle ms-1"></i></div>
+                                 </div>
+                              </div>
+                           </div>
+                          <div class="col-lg-6 col-md-6">
+                              <div class="blog card ">
+                                 <div class="image-5 overflow-hidden">
+                                    <img class="card-img" src="image/img-21.jpg" alt="">
+                                  </div>
+                                 <div class="content">
+                                    <div class="web d-flex mt-4">
+                                        <a href="#"> <div class="btn-1 border-0 px-3 py-1">Web Design</div></a>
+                                      <div class="date ms-2">
+                                        <span>Jan 13,2024 .</span><span> 3 Min Read</span>
+                                      </div>
+                                    </div>
+                                        <h4 class="mt-4 lh-base">
+                                        <a href="#" class="text-dark">How To Create Successful Website For Your Business</a>
+                                        </h4>
+                                        <div class="btn border-0 mt-4">Read More<i class="bi bi-arrow-up-right-circle ms-1"></i></div>
+                                     </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6">
+                                 <div class="blog card ">
+                                   <div class="image-5 overflow-hidden">
+                                      <img class="card-img" src="image/img-22.jpg" alt="">
+                                  </div>
+                                  <div class="content">
+                                     <div class="web d-flex mt-4">
+                                         <a href="#"> <div class="btn-1 border-0 px-3 py-1">Web Design</div></a>
+                                       <div class="date ms-2">
+                                         <span>Jan 13,2024 .</span><span> 3 Min Read</span>
+                                       </div>
+                                    </div>
+                                        <h4 class="mt-4 lh-base">
+                                        <a href="#" class="text-dark">What Is Imposter Syndrome? And How You Can Beat It!</a>
+                                        </h4>
+                                       <div class="btn border-0 mt-4">Read More<i class="bi bi-arrow-up-right-circle ms-1"></i></div>
+                                   </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-6 col-md-6">
+                                 <div class="blog card ">
+                                   <div class="image-5 overflow-hidden">
+                                        <img class="card-img" src="image/img-23.jpg" alt="">
+                                  </div>
+                                  <div class="content">
+                                     <div class="web d-flex mt-4">
+                                          <a href="#"> <div class="btn-1 border-0 px-3 py-1">Web Design</div></a>
+                                       <div class="date ms-2">
+                                         <span>Jan 13,2024 .</span><span> 3 Min Read</span>
+                                      </div>
+                                    </div>
+                                        <h4 class="mt-4 lh-base">
+                                        <a href="#" class="text-dark">5 Best Tools Will Help You To Grow Your Mobile App</a>
+                                        </h4>
+                                        <div class="btn border-0 mt-4">Read More<i class="bi bi-arrow-up-right-circle ms-1"></i></div>
+                                     </div>
+                                  </div>
+                               </div>
+                            </div>
+                            <div class="for text-center">For More Posts Visit <a href="#"> <span class="our">Our Blog</span></a> </div>
+                        </div>
+</section>
+<footer class="footer mt-5">
+              <div class="container">
+                        <div class="box-8 d-flex">
+                            <div class="gool me-1"><div class="gool-1"></div></div>
+                                <div class="heading">
+                                     <h2 class="">Contact Me</h2>
+                                     <p class="fw-medium text-dark-emphasis">Feel Free To Contact Me Any Time</p>
+                                   </div>
+                              </div>
+                    <div class="row mt-4">
+                      <div class="col-xl-7">
+                          <form action="#" class="contact-form  card app">
+                             <div class="row">
+                               <div class="col-md-6 mb-4">
+                                  <input type="text" class="form-control" id="name" placeholder="Enter Your Name" required>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                 <input type="email" class="form-control " id="email" placeholder="Enter Your Email" required>
+                              </div>
+                            </div>
+                                 <input type="text" class="form-control mb-4" id="subject" placeholder="Enter Your Subject" required>
+                                 <textarea class="form-control" id="msg" rows="5" placeholder="Enter Your Message" required></textarea>
+                                 <div class="btn border-0 mt-4"> <i class="bi bi-send-fill me-1"></i>Send Message</div>
+                           </form>
+                        </div>
+                        <div class="col-xl-5">
+                           <div class=" card card--white app">
+                                 <h4>Let's talk about everything!</h4>
+                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+                              <div class="Number">
+                                 <p class="m-0 fw-bold pho">Phone:</p>
+                                 <p class="mb-0 mt-1"> <i class="bi bi-telephone-fill our"></i> <span>+113-804-9098</span></p>                          
+                              </div>
+                              <div class="Number">
+                                 <p class="mb-0 mt-3 fw-bold pho">Email:</p>
+                                 <p class="mb-0 mt-1"> <i class="bi bi-envelope-fill our me-1"></i><span> contact@mariam.com</span></p>                          
+                              </div>
+                              <div class="Number">
+                                 <p class="mb-0 mt-3 fw-bold pho">Address:</p>
+                                 <p class="mb-0 mt-1"><i class="bi bi-geo-alt-fill our me-1"></i><span>1000 Proctor St USA.</span></p>                          
+                              </div>
+                             <div class="Number">
+                                <p class="mb-0 mt-3 fw-bold pho">Follow:</p>
+                             <div class="social px-0">
+                              <ul class="media-icon d-flex ps-0 mb-0 mt-1">
+                                <li><a href="#" class="me-1"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="#" class="mx-1"><i class="bi bi-twitter-x"></i></a></li>
+                                <li><a href="#" class="mx-1"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="#" class="mx-1"><i class="bi bi-dribbble"></i></a></li>
+                                <li><a href="#" class="ms-1"><i class="bi bi-github"></i></a></li>
+                              </ul>
+                             </div>                         
+                           </div>
+                        </div>
+                      </div>
+                   </div>
+               </div>
+</footer>
+<div class="wallas text-center mt-4 mb-4 text-dark-emphasis">© 2024 Mariam Wallas , Are Right All Resereved.</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
