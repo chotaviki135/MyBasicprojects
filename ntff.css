@@ -1,0 +1,464 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body a{
+  text-decoration: none;
+}
+header img{
+  width: 130px;
+}
+.container-fluid{
+  width: 100%;
+  height: 55px;
+  border: 0px solid black;
+}
+.second-header{
+  background-color: #fafafa;;
+  position: absolute;
+  top: 56px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+  height: 96px;
+}
+.offcanvas-body .btn{
+  background-color: #ff695f;
+  color: white;
+}
+.welcome{
+  width: 100%;
+  height: 740px;
+  background-image: url(https://opro.netlify.app/assets/images/header.png);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.welcome .down-buttons .btn{
+  z-index: 3;
+  font-size: 18px;
+}
+.welcome .down-buttons .btn:hover{
+   background-color: #ff695f;
+}
+.welcome .item h5,.artist,.down-buttons,.hove{
+  color: #ff695f;
+  text-decoration: none;
+}
+.nav-link:hover{
+  color: rgb(250, 16, 16);
+}
+.hoved:hover{
+  background-color: #03a4ed;
+  transition: 0.5s;
+}
+.creator{
+  color: #03a4ed;
+}
+.welcome .btn{
+  background-color: #03a4ed;
+  color: #fff;
+}
+.welcome img{
+  width: 267px;
+  height: 538px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0px;
+  top: 152px;
+}
+h2{
+  font-size: 50px;
+}
+.left-image2 img{
+  width: 387px;
+  height: 638px;
+  left: 5%;
+  top: -69px;
+  position: absolute;
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+.our{
+  color: #ff695f;
+  opacity: 0.15;
+}
+.guideline .icon1 img{
+  width: 60px;
+  margin-top: 40px;
+}
+.guideline{
+  position: relative;
+}
+.guideline .card{
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+    border-bottom: 5px solid #ff695f;
+    overflow: hidden;
+    position: relative;
+    padding: 12px;
+}
+.guideline .col .icon1{
+    background-image: url(https://opro.netlify.app/assets/images/icon-bg-a.png);
+    width: 213px;
+    height: 134px;
+    background-size: cover;
+}
+.card-body h4{
+    color: #2a2a2a;
+    font-weight: 600;
+}
+.card .pp{
+    color: #2a2a2a;
+}
+ .grow img{
+  width: 96%;
+  height: auto;
+} 
+.grow .card img{
+  width: 45px;
+  height: 45px;
+  margin-top: 45px;
+} 
+.grow h2{
+  width: 166px;
+  border-bottom: 1px solid rgb(238, 228, 228);
+}
+
+
+.heading{
+  font-size: 36px;
+}
+.lorem,.card-text{
+  color: #2a2a2a;
+  font-size: 17px;
+}
+.recent{
+  position: relative;
+  width: 100%;
+}
+.image img{
+  width: 22%;
+  height: 311px;
+  left: 5%;
+  top: 100px;
+  z-index: 0;
+  position: absolute;
+} 
+.recent .card{
+  overflow: hidden;
+}
+.recent .card{
+  height: 550px;
+  background-size: cover;
+  border-radius: 20px;
+}
+.recent .card-1{
+  background-image: url(https://opro.netlify.app/assets/images/portfolio-01.jpg); 
+}
+.recent .card-2{
+  background-image: url(https://opro.netlify.app/assets/images/portfolio-04.jpg);
+}
+.recent .card-3{
+  background-image: url(https://opro.netlify.app/assets/images/portfolio-03.jpg);
+}
+.recent .card-4{
+  background-image: url(https://opro.netlify.app/assets/images/portfolio-02.jpg); 
+}
+.recent .inside-1{
+  width: 239px;
+  height: 210px;
+  position: absolute;
+  right: 30px;
+  opacity: 0;
+  transition: bottom 0.5s ease-out;
+  bottom: -50px;
+  background-image: url(https://opro.netlify.app/assets/images/hover-bg.png);
+}
+.recent .col:hover .inside-1{
+  opacity: 1;
+  bottom: 40px;
+}
+.select{
+  position: relative;
+  z-index: 2;
+}
+.select .image-1 img{
+  width: 25%;
+  height: 850px;
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  top: 120px;
+}
+.select .image-2 img{
+  width: 25%;
+  height: 847px;
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  top: 18px;
+}
+.select .card{
+  background: #fff;
+  position: relative;
+  z-index: 1;
+  border: none; 
+  padding: 40px;
+  box-shadow: 1px 0px 15px rgba(41, 40, 40, 0.1);
+}
+.select .btn{
+  background-color:  #03a4ed;
+}
+.select .btn:hover{
+  background-color: #ff695f;
+  transition: 0.2s;
+}
+.select .card-text,.heading-3{
+   color: #ff695f;
+}
+.select .para-1{
+  color: #a19494;
+}
+.subscribe{
+  padding-top: 130px;
+}
+.subscribe .container{
+  width: 100%;
+  height: 260px;
+  position: relative;
+  background-size: cover;
+  padding: 40px;
+  border-radius: 20px;
+  background-position: center center;
+  background-image: url(https://opro.netlify.app/assets/images/subscribe-bg.png);
+}
+.subscribe .form input{
+  width: 100%;
+  height: 80px;
+  border: none;
+}
+.subscribe .form .btn{
+  background-color: #03a4ed;
+  position: absolute;
+  right: 70px;
+  top: 122px;
+}
+.subscribe .form .btn:hover{
+  background-color: #ff695f;
+}
+.contact{
+  position: relative;
+  z-index: 1;
+}
+.contact .image-3{
+  width: 15%;
+  position: absolute;
+  left: 0px;
+  top: 140px;
+  padding: 0px;
+}
+.contact .image-4{
+  position: absolute;
+  z-index: 1;
+  width: 459px;
+  height: 702px;
+  right: 0;
+  bottom: -400px;
+}
+.contact .info{
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 20px 45px;
+  background: #fff;
+  border: 2px solid #ff7b63;
+  border-radius: 20px;
+  position: relative;
+  z-index: 5;
+  display: inline-flex;
+}
+.contact .info .bi{
+  width: 47px;
+  height: 43px;
+  background-color: #ff695f;
+}
+.contact .btn{
+  background-color: #ff695f;
+}
+.contact .btn:hover{
+  background-color: #03a4ed;
+}
+.contact .info span{
+  opacity: 1;
+  display: inline-flex;
+}
+.contact .contact-form{
+  margin-left: -100px;
+  position: relative;
+  z-index: 2;
+  background-image: url(https://opro.netlify.app/assets/images/contact-form-bg.png);
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  padding: 60px 120px;
+  border-radius: 20px;
+}
+.contact-form input{
+  width: 100%;
+  height: 46px;
+  border-radius: 0px;
+  border-bottom: 1px solid #9bdbf8;
+  font-size: 15px;
+  color: #2a2a2a;
+  padding: 0px 0px;
+  margin-bottom: 35px;
+}
+.contact-form textarea{
+  width: 100%;
+  height: 46px;
+  color: #2a2a2a;
+  border-bottom: 1px solid #9bdbf8;
+}
+.image-5 img{
+  width: 100%;
+}
+.footer{
+  margin-top: -50px;
+  z-index: 2;
+  position: relative;
+  background-position: center center;
+}
+.footer .ul{
+  list-style-type: none;
+}
+.footer .ul li a .bi{
+  color: #fff;
+  background-color: #03a4ed;
+  padding: 5px 7.6px;
+  border-radius: 50%;
+  
+}
+.footer .ul li a .bi:hover{
+  background-color: #ff695f;
+}
+.footer .ul li a,.pp{
+  color: #757373;
+}
+.footer .ul li a:hover{
+  color: #ff695f;
+}
+.footer .input-group .form-control{
+  background-color: #03a4ed;
+  height: 48px;
+}
+.footer .input-group .btn{
+  background-color: #03a4ed;
+  color: #fff;
+}
+
+@media only screen and (max-width:768px) {
+  .subscribe .form input{
+    width: 100%;
+    height: 65px;
+    border: none;
+    display: block;
+  }
+  .subscribe .form .btn{
+    background-color: #ff695f;
+    position: absolute;
+    right: 42px;
+    top: 210px;
+    width: 84%;
+  }
+  .subscribe .container{
+    width: 100%;
+    height: 305px;
+    position: relative;
+    background-size: cover;
+    padding: 40px;
+    border-radius: 20px;
+    background-position: center center;
+    background-image: url(https://opro.netlify.app/assets/images/subscribe-bg.png);
+  }
+}
+@media only screen and (max-width:575px) {
+  .grow .card img{
+    width: 45px;
+    height: 45px;
+    margin-top: 45px;
+    margin: auto;
+  } 
+  .grow .card{
+    margin: auto;
+    text-align: center;
+    border-bottom: 1px solid rgb(238, 228, 228);
+  } 
+  .grow h2{
+    width: auto;
+    margin: auto;
+    text-align: center;
+  } 
+.recent .card{
+  width: 80%;
+  height: 440px;
+  background-size: cover;
+  border-radius: 20px;
+  margin: auto;
+}
+.recent .inside-1{
+  width: 162px;
+  height: 180px;
+  position: absolute;
+  right: 25px;
+  opacity: 0;
+  transition: bottom 0.5s ease-out;
+  bottom: -50px;
+  background-image: url(https://opro.netlify.app/assets/images/hover-bg.png);
+}
+.left-image2 img{
+    width: 260px;
+    height: 600px;
+    top: -69px;
+    position: absolute;
+    z-index: 0;
+    background-repeat: no-repeat;
+  }
+  .subscribe .form input{
+    width: 100%;
+    height: 65px;
+    border: none;
+    display: block;
+  }
+  .subscribe .form .btn{
+    background-color: #ff695f;
+    position: absolute;
+    right: 25%;
+    top: 200px;
+    width: 50%;
+  }
+  .subscribe .container{
+    width: 97%;
+    height: 300px;
+    margin: auto;
+    background-size: cover;
+    padding: 30px;
+    border-radius: 20px;
+    background-position: center center;
+    background-image: url(https://opro.netlify.app/assets/images/subscribe-bg.png);
+  }
+  .contact .heading-5{
+    text-align: center;
+  }
+  .contact .info{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px 45px;
+    background: #fff;
+    border: 2px solid #ff7b63;
+    border-radius: 20px;
+    position: relative;
+    z-index: 5;
+    display: block;
+  }
+}

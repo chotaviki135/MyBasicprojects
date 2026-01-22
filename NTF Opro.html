@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTF</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://opro.netlify.app/assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./ntff.css">
+</head>
+    <style>
+             *{
+    padding: 0px;
+    margin: 0px;
+}
+body a{
+  text-decoration: none;
+}
+header img{
+  width: 130px;
+}
+.container-fluid{
+  width: 100%;
+  height: 55px;
+  border: 0px solid black;
+}
+.second-header{
+  background-color: #fafafa;;
+  position: absolute;
+  top: 56px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+  height: 96px;
+}
+.offcanvas-body .btn{
+  background-color: #ff695f;
+  color: white;
+}
+.welcome{
+  width: 100%;
+  height: 740px;
+  background-image: url(https://opro.netlify.app/assets/images/header.png);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.welcome .down-buttons .btn{
+  z-index: 3;
+  font-size: 18px;
+}
+.welcome .down-buttons .btn:hover{
+   background-color: #ff695f;
+}
+.welcome .item h5,.artist,.down-buttons,.hove{
+  color: #ff695f;
+  text-decoration: none;
+}
+.nav-link:hover{
+  color: rgb(250, 16, 16);
+}
+.hoved:hover{
+  background-color: #03a4ed;
+  transition: 0.5s;
+}
+.creator{
+  color: #03a4ed;
+}
+.welcome .btn{
+  background-color: #03a4ed;
+  color: #fff;
+}
+.welcome img{
+  width: 267px;
+  height: 538px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0px;
+  top: 152px;
+}
+h2{
+  font-size: 50px;
+}
+.left-image2 img{
+  width: 387px;
+  height: 638px;
+  left: 5%;
+  top: -69px;
+  position: absolute;
+  z-index: 0;
+  background-repeat: no-repeat;
+}
+.our{
+  color: #ff695f;
+  opacity: 0.15;
+}
+.guideline .icon1 img{
+  width: 60px;
+  margin-top: 40px;
+}
+.guideline{
+  position: relative;
+}
+.guideline .card{
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+    border-bottom: 5px solid #ff695f;
+    overflow: hidden;
+    position: relative;
+    padding: 12px;
+}
+.guideline .col .icon1{
+    background-image: url(https://opro.netlify.app/assets/images/icon-bg-a.png);
+    width: 213px;
+    height: 134px;
+    background-size: cover;
+}
+.card-body h4{
+    color: #2a2a2a;
+    font-weight: 600;
+}
+.card .pp{
+    color: #2a2a2a;
+}
+ .grow img{
+  width: 96%;
+  height: auto;
+} 
+.grow .card img{
+  width: 45px;
+  height: 45px;
+  margin-top: 45px;
+} 
+.grow h2{
+  width: 166px;
+  border-bottom: 1px solid rgb(238, 228, 228);
+}
+
+
+.heading{
+  font-size: 36px;
+}
+.lorem,.card-text{
+  color: #2a2a2a;
+  font-size: 17px;
+}
+.recent{
+  position: relative;
+  width: 100%;
+}
+.image img{
+  width: 22%;
+  height: 311px;
+  left: 5%;
+  top: 100px;
+  z-index: 0;
+  position: absolute;
+} 
+.recent .card{
+  overflow: hidden;
+}
+.recent .card{
+  height: 550px;
+  background-size: cover;
+  border-radius: 20px;
+}
+.recent .card-1{
+  background-image: url(https://opro.netlify.app/assets/images/portfolio-01.jpg); 
+}
+.recent .card-2{
+  background-image: url(https://opro.netlify.app/assets/images/portfolio-04.jpg);
+}
+.recent .card-3{
+  background-image: url(https://opro.netlify.app/assets/images/portfolio-03.jpg);
+}
+.recent .card-4{
+  background-image: url(https://opro.netlify.app/assets/images/portfolio-02.jpg); 
+}
+.recent .inside-1{
+  width: 239px;
+  height: 210px;
+  position: absolute;
+  right: 30px;
+  opacity: 0;
+  transition: bottom 0.5s ease-out;
+  bottom: -50px;
+  background-image: url(https://opro.netlify.app/assets/images/hover-bg.png);
+}
+.recent .col:hover .inside-1{
+  opacity: 1;
+  bottom: 40px;
+}
+.select{
+  position: relative;
+  z-index: 2;
+}
+.select .image-1 img{
+  width: 25%;
+  height: 850px;
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  top: 120px;
+}
+.select .image-2 img{
+  width: 25%;
+  height: 847px;
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  top: 18px;
+}
+.select .card{
+  background: #fff;
+  position: relative;
+  z-index: 1;
+  border: none; 
+  padding: 40px;
+  box-shadow: 1px 0px 15px rgba(41, 40, 40, 0.1);
+}
+.select .btn{
+  background-color:  #03a4ed;
+}
+.select .btn:hover{
+  background-color: #ff695f;
+  transition: 0.2s;
+}
+.select .card-text,.heading-3{
+   color: #ff695f;
+}
+.select .para-1{
+  color: #a19494;
+}
+.subscribe{
+  padding-top: 130px;
+}
+.subscribe .container{
+  width: 100%;
+  height: 260px;
+  position: relative;
+  background-size: cover;
+  padding: 40px;
+  border-radius: 20px;
+  background-position: center center;
+  background-image: url(https://opro.netlify.app/assets/images/subscribe-bg.png);
+}
+.subscribe .form input{
+  width: 100%;
+  height: 80px;
+  outline: none;
+}
+.subscribe .form .btn{
+  background-color: #03a4ed;
+  position: absolute;
+  right: 70px;
+  top: 122px;
+}
+.subscribe .form .btn:hover{
+  background-color: #ff695f;
+}
+.contact{
+  position: relative;
+  z-index: 1;
+}
+.contact .image-3{
+  width: 15%;
+  position: absolute;
+  left: 0px;
+  top: 140px;
+  padding: 0px;
+}
+.contact .image-4{
+  position: absolute;
+  z-index: 1;
+  width: 459px;
+  height: 702px;
+  right: 0;
+  bottom: -400px;
+}
+.contact .info{
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 20px 45px;
+  background: #fff;
+  border: 2px solid #ff7b63;
+  border-radius: 20px;
+  position: relative;
+  z-index: 5;
+  display: inline-flex;
+}
+.contact .info .bi{
+  width: 47px;
+  height: 43px;
+  background-color: #ff695f;
+}
+.contact .btn{
+  background-color: #ff695f;
+}
+.contact .btn:hover{
+  background-color: #03a4ed;
+}
+.contact .info span{
+  opacity: 1;
+  display: inline-flex;
+}
+.contact .contact-form{
+  margin-left: -100px;
+  position: relative;
+  z-index: 2;
+  background-image: url(https://opro.netlify.app/assets/images/contact-form-bg.png);
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  padding: 60px 120px;
+  border-radius: 20px;
+}
+.contact-form input{
+  width: 100%;
+  height: 46px;
+  border-radius: 0px;
+  border-bottom: 1px solid #9bdbf8;
+  font-size: 15px;
+  color: #2a2a2a;
+  padding: 0px 0px;
+  margin-bottom: 35px;
+  outline: none;
+}
+.contact-form textarea{
+  width: 100%;
+  height: 46px;
+  color: #2a2a2a;
+  border-bottom: 1px solid #9bdbf8;
+  outline: none;
+}
+.image-5 img{
+  width: 100%;
+}
+.footer{
+  margin-top: -50px;
+  z-index: 2;
+  position: relative;
+  background-position: center center;
+}
+.footer .ul{
+  list-style-type: none;
+}
+.footer .ul li a .bi{
+  color: #fff;
+  background-color: #03a4ed;
+  padding: 5.7px 7.8px;
+  border-radius: 50%;
+  
+}
+.footer .ul li a .bi:hover{
+  background-color: #ff695f;
+}
+.footer .ul li a,.pp{
+  color: #757373;
+}
+.footer .ul li a:hover{
+  color: #ff695f;
+}
+.footer .input-group .form-control{
+  border: 0.6px solid #03a4ed;
+  background-color: #03a4ed;
+  height: 48px;
+  outline: none;
+}
+.footer .input-group .btn{
+  background-color: #03a4ed;
+  color: #fff;
+ 
+}
+
+@media only screen and (max-width:768px) {
+  .subscribe .form input{
+    width: 100%;
+    height: 65px;
+    border: none;
+    display: block;
+  }
+  .subscribe .form .btn{
+    background-color: #ff695f;
+    position: absolute;
+    right: 42px;
+    top: 210px;
+    width: 84%;
+  }
+  .subscribe .container{
+    width: 100%;
+    height: 305px;
+    position: relative;
+    background-size: cover;
+    padding: 40px;
+    border-radius: 20px;
+    background-position: center center;
+    background-image: url(https://opro.netlify.app/assets/images/subscribe-bg.png);
+  }
+}
+@media only screen and (max-width:575px) {
+  .grow .card img{
+    width: 45px;
+    height: 45px;
+    margin-top: 45px;
+    margin: auto;
+  } 
+  .grow .card{
+    margin: auto;
+    text-align: center;
+    border-bottom: 1px solid rgb(238, 228, 228);
+  } 
+  .grow h2{
+    width: auto;
+    margin: auto;
+    text-align: center;
+  } 
+.recent .card{
+  width: 80%;
+  height: 440px;
+  background-size: cover;
+  border-radius: 20px;
+  margin: auto;
+}
+.recent .inside-1{
+  width: 162px;
+  height: 180px;
+  position: absolute;
+  right: 25px;
+  opacity: 0;
+  transition: bottom 0.5s ease-out;
+  bottom: -50px;
+  background-image: url(https://opro.netlify.app/assets/images/hover-bg.png);
+}
+.left-image2 img{
+    width: 260px;
+    height: 600px;
+    top: -69px;
+    position: absolute;
+    z-index: 0;
+    background-repeat: no-repeat;
+  }
+  .subscribe .form input{
+    width: 100%;
+    height: 65px;
+    border: none;
+    display: block;
+  }
+  .subscribe .form .btn{
+    background-color: #ff695f;
+    position: absolute;
+    right: 25%;
+    top: 200px;
+    width: 50%;
+  }
+  .subscribe .container{
+    width: 97%;
+    height: 300px;
+    margin: auto;
+    background-size: cover;
+    padding: 30px;
+    border-radius: 20px;
+    background-position: center center;
+    background-image: url(https://opro.netlify.app/assets/images/subscribe-bg.png);
+  }
+  .contact .heading-5{
+    text-align: center;
+  }
+  .contact .info{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px 45px;
+    background: #fff;
+    border: 2px solid #ff7b63;
+    border-radius: 20px;
+    position: relative;
+    z-index: 5;
+    display: block;
+  }
+}
+     </style>
+<body>
+  <header>
+        <nav class="navbar p-0">
+            <div class="container-fluid bg-dark">
+              <a class="navbar-brand" href="#">
+                <img src="https://public-assets.envato-static.com/assets/logos/envato_market-dd390ae860330996644c1c109912d2bf63885fc075b87215ace9b5b4bdc71cc8.svg" class="ms-3" alt="">
+               </a>
+               <div class="btn btn-success px-4 me-2">Buy now</div>
+             </div>
+          </nav>
+  </header>
+<section class="second-header">
+        <nav class="navbar py-4 navbar-expand-lg">
+          <div class="container-fluid">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body pe-5">
+                <ul class="navbar-nav justify-content-end flex-grow-1">
+                  <li class="nav-item">
+                     <a class="nav-link fw-medium ms-3 me-3" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link fw-medium mx-3" href="#">Services</a>
+                  </li> 
+                  <li class="nav-item">
+                     <a class="nav-link fw-medium mx-3" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link fw-medium mx-3 me-5" href="#">Portfolio</a>
+                  </li>
+                 </ul>
+                <div class="btn hoved rounded-pill py-2 ms-3 px-4 me-5 fw-medium">Contact Us Now</div>
+              </div>
+            </div>
+          </div>
+        </nav>
+</section>
+<section class="welcome">
+             <div class="container">
+                <div class="row">
+                  <div class="left-image1">
+                    <img src="https://opro.netlify.app/assets/images/baner-dec-left.png" alt="">
+                  </div>
+                <div class="col-lg-12">
+                    <div class="row">
+                      <div class="col-12 col-md-8 col-lg-5">
+                        <div class="Professional mt-5 pt-5">
+                          <div class="item header-text pt-5">
+                            <h5 class="andy pt-5">WELCOME, MY IS ANDY SMITH </h5>
+                            <h2 class="fw-bold lh-base mt-2">Professional <span class="creator">NFT Creator</span> and Digital Assets <span class="artist">Artist</span></h2>
+                            <p class="fw-medium mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                               tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="down-buttons d-flex">
+                              <a href="#" class="btn fw-medium px-md-4 py-md-2 mt-3 rounded-pill">our service</a>
+                               <a href="#" class="hove rounded-pill py-md-2 px-md-4 ms-3  mt-3 fw-medium"><i class="bi bi-telephone-fill"></i>+92-307-3872-135</a>
+                             </div>
+                          </div>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+</section>
+<section class="guideline mt-5 pt-3">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="left-image2"><img src="https://opro.netlify.app/assets/images/services-left-dec.png" alt=""></div>
+               <h3 class="fw-bold text-center">We <span class="creator">provide</span> The Best Service <br>With <span class="artist">Our Tools</span><br>
+                <span class="our">OUR SERVICES</span></h3>
+                  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4 mt-4">
+            <div class="col py-2 py-md-0">
+              <div class="card h-100 text-center border-top-0 border-start-0 border-end-0">
+               <div class="icon1 mx-auto mt-4"><img src="https://opro.netlify.app/assets/images/icon4.png" class="card-img-top "  alt="..."></div>
+                  <div class="card-body">
+                  <h4 class="fw-bold lh-base">Learn More about our Guidelines</h4>
+                  <p class="pp mt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col py-2 py-md-0">
+              <div class="card h-100 text-center border-top-0 border-start-0 border-end-0">
+                <div class="icon1 mx-auto mt-4"><img src="https://opro.netlify.app/assets/images/icon2.png" class="card-img-top" alt="..."></div>
+                <div class="card-body">
+                  <h4 class="fw-medium lh-base">Develop The Best Assets for Digital Business</h4>
+                  <p class="pp mt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col py-2 py-md-0">
+              <div class="card h-100 text-center border-top-0 border-start-0 border-end-0">
+                <div class="icon1 mx-auto mt-4"><img src="https://opro.netlify.app/assets/images/icon3.png" class="card-img-top" alt="..."></div>
+                <div class="card-body">
+                  <h4 class="fw-medium lh-base">Create Creative NFT Digital Assets</h4>
+                  <p class="pp mt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col py-2 py-md-0">
+              <div class="card h-100 text-center border-top-0 border-start-0 border-end-0">
+                <div class="icon1 mx-auto mt-4"><img src="https://opro.netlify.app/assets/images/icon4.png" class="card-img-top" alt="..."></div>
+                <div class="card-body">
+                  <h4 class="fw-medium lh-base">Discover &amp; Explore our Top NFT Assets</h4>
+          
+                  <p class="pp mt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+<section class="grow pt-5 mt-5">
+      <div class="container mt-4">
+        <div class="row ">
+            <div class="col-lg-6">
+              <img src="https://opro.netlify.app/assets/images/about-left-image.png" alt="">
+            </div>
+            <div class="col-lg-6">
+               <h3 class="heading fw-bold  lh-base">Grow your Business Revenue with our  <span class="creator">Most Trending </span> <span class="artist">NFT Digital</span> Assets</h3>
+               <p class="lorem mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+            <div class="card-group">
+              <div class="card border-0 py-3 py-md-0">
+                <img src="https://opro.netlify.app/assets/images/service-icon-01.png" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                  <h2 class="card-title fw-bold mt-2">320</h2>
+                  <p class=" fw-medium mb-2 p-1 text-danger">NFT Projects</p>
+                  <p class="card-text p-1">Lorem ipsum dolor sitti amet, consec tetur ipsum.</p>
+              </div>
+           </div>
+              <div class="card border-0 py-3 py-md-0">
+                <img src="https://opro.netlify.app/assets/images/service-icon-02.png" class="card-img-top" alt="...">
+                <div class="card-body p-0">
+                  <h2 class="card-title fw-bold mt-2">640</h2>
+                  <p class=" fw-medium mb-2 p-1 text-danger">Diigital Assets</p>
+                  <p class="card-text p-1">Lorem ipsum dolor sitti amet, consec tetur ipsum.</p>
+                </div>
+             </div>
+          <div class="card border-0 py-3 py-md-0">
+            <img src="https://opro.netlify.app/assets/images/service-icon-03.png" class="card-img-top" alt="...">
+              <div class="card-body p-0">
+                <h2 class="card-title fw-bold mt-2">120</h2>
+                  <p class="fw-medium mb-2 p-1 text-danger">Satisfied Clients</p>
+                  <p class="card-text p-1">Lorem ipsum dolor sitti amet, consec tetur ipsum.</p>
+                </div>
+              </div>
+            </div>
+           </div>
+        </div>
+      </div>
+</section>
+<section class="recent mt-5 pt-5">
+          <div class="image">
+            <img src="https://opro.netlify.app/assets/images/portfolio-left-dec.png" alt="">
+          </div>
+          <h3 class="heading-2 fs-2 fw-bold text-center">Our Recent <span class="creator"> NFT Projects</span> & Case <br>Studies <span class="artist"> For Clients </span><br>
+           <span class="our">OUR FORTFOLIO</span></h3>
+           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4 mt-5 mx-0 px-3">
+            <div class="col">
+              <div class="card card-1 border-0">
+                <div class="inside-1 text-end pe-4 align-content-end">
+                  <h4 class="heading-3 fw-bold text-white">First Project</h4>
+                  <p class="plot text-white">Plot Listing</p>
+               </div>
+             </div>
+          </div>
+            <div class="col">
+              <div class="card card-2 border-0">
+                <div class="inside-1 text-end pe-4 align-content-end">
+                  <h4 class="heading-3 fw-bold text-white">Second Project</h4>
+                  <p class="plot text-white">Crypto Art</p>
+              </div>
+            </div>
+         </div>
+            <div class="col">
+              <div class="card card-3 border-0">
+                <div class="inside-1 text-end pe-4 align-content-end">
+                  <h4 class="heading-3 fw-bold text-white">Third Project</h4>
+                  <p class="plot text-white">Space Dynamic</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-4 border-0">
+                <div class="inside-1 text-end pe-4 align-content-end">
+                  <h4 class="heading-3 fw-bold text-white">Fourth Project</h4>
+                  <p class="plot text-white">Digital Waves</p>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</section>
+<section class="select mt-5 pt-5">
+  <div class="container mt-5">
+    <div class="row">
+       <div class="image-1"><img src="https://opro.netlify.app/assets/images/tables-left-dec.png" class="" alt=""></div>
+        <div class="image-2"><img src="https://opro.netlify.app/assets/images/tables-right-dec.png" alt=""></div>
+         <h3 class="heading-2 fs-2 fw-bold text-center">Select a suitable <span class="creator">plan</span>  for your <br>next <span class="artist">Projects</span><br> 
+          <span class="our"> OUR PLANS</span> </h3>
+           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 ">
+             <div class="col  py-3 py-md-0">
+              <div class="card h-100 text-center rounded-5">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Starter Plan</h5>
+                  <p class="card-text fw-bold mt-4 mb-0">$160/mo</p>
+                  <h3 class=" heading-3 fw-bold display-5">$140</h3>
+                  <p class="para-1 fw-medium mt-4">10 Projects </p>
+                  <p class="para-1 fw-medium"> 100 GB space </p>
+                  <p class="para-1 fw-medium"> 20 SEO checkups</p>
+                  <p class="para-1 fw-medium"> Basic Support</p>
+                    <a href="#"><div class="btn  rounded-pill py-2 px-3  fw-medium text-white mt-2">Get Started</div></a>
+                 </div>
+              </div>
+           </div>
+            <div class="col  py-3 py-md-0">
+              <div class="card h-100 text-center rounded-5">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Standard Plan</h5>
+                   <p class="card-text fw-bold mt-4 mb-0">$240/mo</p>
+                    <h3 class="heading-3 fw-bold display-5">$200</h3>
+                     <p class="para-1 lh-base fw-medium mt-4">20 Projects</p>
+                       <p class="para-1 fw-medium">200 GB space</p> 
+                       <p class="para-1 fw-medium"> 50 SEO checkups</p> 
+                       <p class="para-1 fw-medium">Pro Support</p>
+                    <a href="#"><div class="btn  rounded-pill py-2 px-3 fw-medium text-white mt-2">Get It Now</div></a>
+                 </div>
+               </div>
+           </div>
+            <div class="col  py-3 py-lg-0">
+              <div class="card h-100 text-center rounded-5">
+                  <div class="card-body">
+                   <h5 class="card-title fw-bold">Advanced Plan</h5>
+                    <p class="card-text fw-bold mt-4 mb-0">$360/mo</p>
+                     <h3 class="heading-3 fw-bold display-5 ">$280</h3>
+                      <p class="para-1 fw-medium mt-4">30 Projects </p>
+                      <p class="para-1 fw-medium"> 300 GB space </p>
+                      <p class="para-1 fw-medium"> 100 SEO checkups </p>
+                      <p class="para-1 fw-medium"> Best Support</p>
+                  <a href="#"><div class="btn  rounded-pill py-2 px-3 fw-medium text-white mt-2 ">Buy Now</div></a>
+                </div>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+</section>
+<section class="subscribe">
+       <div class="container">
+         <div class="row">
+            <h3 class="heading-4 fs-2 text-white text-center fw-bold">Enter Your Email to join Our Newsletter</h3>
+            <form class="form d-flex mt-4">
+              <input type="text" name="email"  placeholder="Your Email" class="rounded-pill ps-3 fw-medium text-secondary">
+              <a href="#"><div class="btn rounded-pill py-2 px-5  fw-medium text-white mt-2">Subscribe</div></a>
+            </form>
+         </div>
+       </div>
+</section>
+<section class="contact pt-5 mt-5">
+  <div class="container pt-5 mt-2">
+    <div class="row">
+      <div class=" col-lg-7">
+        <div class="image-3"><img src="https://opro.netlify.app/assets/images/contact-left-dec.png" alt=""></div>
+        <div class="image-4"><img src="https://opro.netlify.app/assets/images/contact-dec.png" alt=""></div>
+        <h3 class="heading-5 fw-bold fs-2">Feel free to <span class="creator">Contact</span> us via the <br> <span class="artist"> Contact  form</span></h3>
+        <div class="info mt-4">
+          <span><i class="bi bi-telephone-fill text-white rounded-pill ps-3 pt-2"></i> <a href="#" class="heading-3 ms-2">0307-3872135<br>03257992206</a></span>
+          <span class="envelope ps-md-5"><i class="bi bi-envelope-fill text-white rounded-pill ps-3 pt-2"></i><a href="#" class="heading-3 ms-2">chotaviki@gmail.com<br>chotaviki@gmail.com</a></span>
+        </div>
+        <div class="info">
+          <span><i class="bi bi-calendar3 text-white rounded-pill ps-3 pt-2"></i><a href="#" class="heading-3 ms-2">Always Open<br>Freelancing </a></span>
+          <span class="envelope ps-md-5"><i class="bi bi-geo-alt text-white rounded-pill ps-3 pt-2"></i><a href="#" class="heading-3 ms-2">united Status<br>24 st, NewYork</a></span>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <form class="contact-form">
+          <div class="row">
+            <div class="col-lg-12">
+              <fieldset>
+                <input type="text" name="name" id="name" placeholder="Name" class="fw-medium border-top-0 bor border-end-0 border-start-0">
+              </fieldset>
+            </div>
+            <div class="col-lg-12">
+              <fieldset>
+                <input type="text" name="email" id="email" placeholder="Your Email" class=" fw-medium border-top-0 border-end-0 border-start-0">
+              </fieldset>
+            </div>
+            <div class="col-lg-12">
+              <fieldset>
+                <textarea name="website" id="Message" placeholder="Your Message" class="textarea fw-medium border-top-0 border-end-0 border-start-0"></textarea>
+              </fieldset>
+            </div>
+            <div class="col-lg-12">
+              <fieldset>
+                <div class="btn rounded-pill py-md-2 mt-4 px-md-4 me-0 fw-medium text-white">Submit Request</div>
+              </fieldset>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="image-5 pt-5 mt-5">
+  <img src="https://opro.netlify.app/assets/images/footer-dec.png" alt="">
+</section>
+<footer class="footer">
+  <div class="container">
+    <div class="row ">
+      <div class="col-12 col-sm-6 col-lg-3 ps-4 ps-md-0">
+         <a href="#"> <img src="https://opro.netlify.app/assets/images/logo.png" alt="" class="mt-3"></a><br>
+          <a href="#"><div class="text-secondary mt-4 mb-3">info@company.com</div></a>
+          <div class="ul d-flex">
+            <li><a class="lh-lg me-2" href="#"><i class="bi bi-facebook"></i></a></li>
+            <li><a class="lh-lg mx-2" href="#"><i class="bi bi-twitter"></i></a></li>
+            <li><a class="lh-lg mx-2" href="#"><i class="bi bi-behance"></i></a></li>
+            <li><a class="lh-lg ms-2" href="#"><i class="bi bi-camera-fill"></i></a></li>
+          </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 ps-4 ps-md-0">
+         <div class="ul">
+          <h4 class="fw-bold mb-4 mt-3">Services</h4>
+          <li><a href="#" class="fw-medium lh-lg">NFT Development</a></li>
+          <li><a href="#" class="fw-medium lh-lg">Business Growth</a></li>
+          <li><a href="#" class="fw-medium lh-lg">Digital Managment</a></li>
+          <li><a href="#" class="fw-medium lh-lg">Assets Optimization</a></li>
+         </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 ps-4 ps-md-0">
+        <div class="ul ">
+          <h4 class="fw-bold mb-4 mt-3">Community</h4>
+          <li><a href="#" class="fw-medium lh-lg">Digital Services</a></li>
+          <li><a href="#" class="fw-medium lh-lg">NFT Ideas</a></li>
+          <li><a href="#" class="fw-medium lh-lg">Assets Checkup</a></li>
+          <li><a href="#" class="fw-medium lh-lg">NFT Optimization</a></li>
+         </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 ps-4 ps-md-0">
+          <h4 class="fw-bold mb-4 mt-3">Subscribe Newsletters</h4>
+          <p class="pp fw-medium">Get our latest news and ideas to your Direct inbox</p>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control mt-4 text-white" placeholder="Your Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn mt-4" type="button" id="button-addon2"><i class="bi bi-send"></i></button>
+          </div>
+       </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
