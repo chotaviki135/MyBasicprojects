@@ -1,0 +1,1631 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body button,a{
+    font-family: jost, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+.main-box{
+   width: 100%;
+   height: 770px;
+  
+   background-color: rgb(56, 56, 194);
+  
+}
+.box{
+   width: 100%;
+   height: 110px;
+   display: flex;
+ 
+}
+.icon img{
+   width: 165px;
+   height: 53px;
+   cursor: pointer;
+   margin-top: 25px;
+   margin-left: 70px;
+}
+.box-1{
+   width: 70%;
+   height: 100px;
+ 
+   
+   margin-left: 42%;
+   margin-top: 36px;
+}
+.box-1 ul li a{
+   display: inline-block;
+   color:white;
+   font-size: 16px;
+}
+.box-1 ul li{
+   display: inline-block;
+   padding-left: 28px;
+}
+.box-1 ul li a:hover{	
+   color:#021111;			 
+}
+.content{
+    width: 100%;
+    height: 90px;
+    
+    font-size: 27px;
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+.content-2{
+  width: 100%;
+  height: 80px;
+  margin-top: -15px;
+  text-align: center;
+  margin-left: 0%;
+  
+  color: white;
+}
+.content-2 p{
+    font-size: 19px;
+    line-height: 1.6em;
+}
+.content-2 button{
+  width: 200px;
+  height: 47px;
+  border: 1px solid #0274BE;
+  color: #0274BE;
+  font-size: 15px;
+  margin-left: 0px;
+  margin-top: 50px;
+  background: #FFFFFF;
+  border-radius: 30px;
+}
+.content-2 button:hover{
+  background-color:aqua;
+            transition:1s;
+}
+.main-box2{
+    width: 100%;
+    height: 250px;
+
+    display: flex;
+    margin-top: -100px;
+   
+}
+.boxes{
+    width: 24%;
+    height: 232px;
+    border: 1px solid rgb(241, 226, 226);
+    text-align: center;
+    background: white;
+    border-radius: 8px;
+}
+.box-2{
+    margin-left: 145px;
+}
+.box-3{
+    margin-left: 40px;
+}
+.box-4{
+    margin-left: 40px;
+}
+.boxes h2{
+    color: #2f3f50;
+    margin-top: 20px;
+}
+.boxes p{
+    color: #3A3A3A;
+    font-size: 17px;
+    margin-top: 7px;
+    line-height: 1.4em;
+}
+.icones{
+    width: 52px;
+    height: 44px;
+   
+    background-color: #0274BE;
+    background-size: cover;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+.icon1{
+    margin-left: 130px;
+    background-image: url(https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-white.svg);
+}
+.icon2{
+    margin-left: 130px;
+    background-image: url(https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-white.svg);
+}
+.icon3{
+    margin-left: 130px;
+
+    background-image: url(https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-white.svg);
+}
+.heading{
+  width: 100%;
+  height: 180px;
+ 
+  text-align: center;
+  margin-top: 120px;
+}
+.heading h1{
+  font-size: 40px;
+  color: #2f3f50;
+}
+.heading p{
+   font-size: 19px;
+   line-height: 1.5em;
+   margin-top: 15px;
+   color: #685a5a;
+}
+.social{
+  width: 100%;
+  height: 400px;
+  
+  display: flex;
+  
+}
+.image-box{
+  width: 26%;
+  height: 211px;
+  border: 1px solid rgb(218, 208, 208);
+  background-size: cover;
+  
+}
+
+.markiting{
+  width: 100%;
+  height: 180px;
+  border: 1px solid rgb(218, 208, 208);
+  margin-top: 212px;
+  
+}
+.markiting h2{
+  margin-top: 15px;
+  color: #2f3f50;
+  margin-left: 13px;
+}
+.markiting p{
+  margin-top: 7px;
+  line-height: 1.3em;
+  color: #685a5a;
+  font-size: 18px;
+ 
+  margin-left: 13px;
+}
+
+
+.markiting button{
+  width: 307px;
+  height: 36px;
+  border: 1px solid #FFFFFF;
+  background: #428BCA;
+  color: #FFFFFF;
+  margin-left: 22px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.markiting button:hover{
+  background-color:rgb(3, 55, 114);
+            transition:1s;
+}
+.image-1{
+  margin-left: 110px;
+  background-image: url(https://websitedemos.net/learndash-academy-02/wp-content/uploads/sites/457/2019/05/course-1-free-img-400x223.jpg);
+}
+.image-2{
+  margin-left: 30px;
+  background-image: url(https://websitedemos.net/learndash-academy-02/wp-content/uploads/sites/457/2019/05/course-2-free-img-400x223.jpg);
+}
+.image-3{
+  margin-left: 30px;
+  background-image: url(https://websitedemos.net/learndash-academy-02/wp-content/uploads/sites/457/2016/12/course-3-free-img-400x223.jpg);
+}
+
+.box-9{
+  width: 100%;
+  height: 100px;
+ 
+  text-align: center;
+  margin-top: 150px;
+  
+}
+.box-9 h1{
+  font-size: 40px;
+  color: #2f3f50;
+}
+.box-9 p{
+  color: #3A3A3A;
+  font-size: 21px;
+  margin-top: 20px;
+}
+.social-1{
+  width: 100%;
+  height: 530px;
+  
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+.box-10{
+  width: 38%;
+  height: 480px;
+  border: 1px solid rgb(238, 223, 223);
+  margin-top: 0px;
+  margin-left: 0%;
+  padding-top: 10px;
+  padding-left: 15px;
+  background-color: hsl(345, 29%, 97%);
+  border-radius: 10px;
+  
+}
+.box-10 h4{
+  color: #817d7d;
+  font-size: 18px;
+  margin-top: 30px;
+}
+.box-10 p{
+  color: #706a6a;
+  line-height: 1.5em;
+  word-spacing: 0.4em;
+  font-size: 17px;
+  margin-top: 12px;
+}
+.image-4{
+  width: 36%;
+  height: 480px;
+  
+  background-image: url(https://websitedemos.net/learndash-academy-02/wp-content/uploads/sites/457/2019/06/manager-free-img.png);
+  background-size: cover;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.name{
+  width: 400px;
+  height: 100%;
+  align-content: flex-end;
+  margin-top: 35px;
+}
+.name h3{
+  font-size: 20px;
+  color: #3A3A3A;
+  margin-left: 19%;
+}
+.box-11{
+  width: 100%;
+  height: 100px;
+  
+  text-align: center;
+  font-size: 20px;
+  color: #2f3f50;
+  margin-top: 140px;
+}
+.student-box{
+  width: 35%;
+  height: 190px;
+  border: 1px solid #fffdfd;
+  padding: 20px;
+  background: #f0ecec;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 30px;
+  
+}
+.box-12{
+  margin-left: 140px;
+}
+.box-13{
+  margin-left: 30px;
+}
+.box-14{
+  margin-left: 140px;
+}
+.box-15{
+  margin-left: 30px;
+ 
+}
+.student-box p{
+  line-height: 1.8em;
+  color: #6e6969;
+  line-height: 1.4em;
+  margin-top: 15px;
+  font-size: 17px;
+}
+.student-box h5{
+  width: 145px;
+  height: 60px;
+  
+  margin-left: 80px;
+  margin-top: -50px;
+  color: #554a4a;
+}
+.student-box img{
+  width: 60px;
+  height: 60px;
+  border: 1px solid gray;
+  background-size: cover;
+  border-radius: 50%;
+  margin-top: 20px;
+  background-size: cover;
+ 
+}
+.box-16{
+  width: 100%;
+  height: 360px;
+  
+  text-align: center;
+  background: #0274BE;
+  margin-top: 100px;
+}
+.box-16 h1{
+  
+  font-size: 40px;
+  color: #FFFFFF;
+  padding-top: 70px;
+}
+.box-16 p{
+  margin-top: 30px;
+  color: #fafafa;
+  line-height: 1.8em;
+  font-size: 18px;
+}
+.box-16 button{
+  width: 182px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 30px;
+  font-size: 15px;
+  background: #FFFFFF;
+  color: #0274BE;
+  margin-top: 30px;
+}
+.box-16 button:hover{
+  border: 1px solid #021111;
+  background-color: #021111;
+  transition: 1s;
+}
+.inside-box{
+  width: 800px;
+  height: 300px;
+  border: 1px solid #0274BE;
+  margin-left: 260px;
+}
+.footer{
+  width: 100%;
+  height: 95px;
+  border-top: 1px solid rgb(190, 186, 186);
+  text-align: center;
+  background-color: #0274BE;
+  color: #FFFFFF;
+  font-size: 17px;
+  padding-top: 33px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:992px){
+  body {
+    font-family: jost, sans-serif;
+
+  }
+  .main-box{
+    width: 100%;
+    height: 700px;
+   
+    background-color: rgb(56, 56, 194);
+   
+ }
+ .box{
+    width: 100%;
+    height: 110px;
+    display: flex;
+   
+ }
+ .icon img{
+    width: 180px;
+    height: 62px;
+    cursor: pointer;
+    margin-top: 24px;
+    margin-left: 46%;
+ }
+ .box-1{
+    width: 100%;
+    height: 100px;
+  
+    
+    margin-left: 28%;
+    margin-top: 45px;
+ }
+ .box-1 ul li a{
+    display: inline-block;
+    color:white;
+    font-size: 17px;
+ }
+ .box-1 ul li{
+    display: inline-block;
+    padding-left: 15px;
+ }
+ .box-1 ul li a:hover{	
+  color:#021111;			 
+ }
+ .content{
+     width: 100%;
+     height: 95px;
+     font-size: 26px;
+     color: white;
+     margin-top: 90px;
+  
+ }
+ .content-2{
+      width: 90%;
+      height: 100%;
+      margin-top: 0px;
+      text-align: center;
+      margin: auto;
+      
+      color: white;
+ }
+ .content-2 p{
+     font-size: 18px;
+     line-height: 1.6em;
+ }
+ .content-2 button{
+      width: 200px;
+      height: 47px;
+      border: 1px solid #0274BE;
+      color: #0274BE;
+      font-size: 15px;
+      margin-left: 0px;
+      margin-top: 30px;
+      background: #FFFFFF;
+      border-radius: 30px;
+ }
+ .content-2 button:hover{
+     background-color:aqua;
+             transition:1s;
+ }
+ .main-box2{
+     width: 100%;
+     height: 100%;
+ 
+     display: flex;
+     margin-top: -100px;
+     
+ }
+ .boxes{
+     width: 31%;
+     height: 220px;
+     border: 1px solid rgb(241, 226, 226);
+    
+     background: rgb(248, 245, 245);
+     border-radius: 8px;
+ }
+ .box-2{
+     margin: auto;
+ }
+ .box-3{
+     margin: auto;
+     margin-top: 0px;
+ }
+ .box-4{
+     margin: auto;
+     margin-top: 0px;
+ }
+ .boxes h2{
+     color: #2f3f50;
+     margin-top: 20px;
+ }
+ .boxes p{
+     color: #3A3A3A;
+     font-size: 16px;
+     margin-top: 12px;
+     
+ }
+ .icones{
+     width: 52px;
+     height: 44px;
+    
+     background-color: #0274BE;
+     background-size: cover;
+     border-radius: 3px;
+     margin-top: 30px;
+     
+ }
+ .icon1{
+     margin-left: 41%;
+     background-image: url(https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-white.svg);
+ }
+ .icon2{
+     margin-left: 41%;
+     background-image: url(https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-white.svg);
+ }
+ .icon3{
+     margin-left: 41%;
+ 
+     background-image: url(https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-white.svg);
+ }
+ .heading{
+   width: 100%;
+   height: 100%;
+  
+   text-align: center;
+   margin-top: 120px;
+ }
+ .heading h1{
+   font-size: 36px;
+   color: #2f3f50;
+ }
+ .heading p{
+    width: 86%;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-top: 25px;
+    margin-left: 7%;
+    color: #685a5a;
+   
+ }
+ .social{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   margin-top: 70px;
+   
+ }
+ .image-box{
+   width: 30.8%;
+   height: 200px;
+   border: 1px solid rgb(218, 208, 208);
+   background-size: cover;
+   margin: auto;
+ }
+ 
+ .markiting{
+   width: 100%;
+   height: 180px;
+   border: 1px solid rgb(218, 208, 208);
+   margin-top: 199px;
+ }
+ .markiting h2{
+   font-size: 20px;
+   margin-top: 15px;
+   color: #2f3f50;
+   margin-left: 13px;
+ }
+ .markiting p{
+   margin-top: 13px;
+   line-height: 1.3em;
+   color: #685a5a;
+   font-size: 16px;
+  
+ 
+ }
+ 
+ .markiting button{
+   width: 100%;
+   height: 36px;
+   border: 1px solid #FFFFFF;
+   background: #428BCA;
+   color: #FFFFFF;
+   margin: auto;
+   margin-top: 20px;
+   border-radius: 5px;
+ }
+ .markiting button:hover{
+   background-color:rgb(3, 55, 114);
+             transition:1s;
+ }
+ .image-1{
+  
+   background-image: url(https://websitedemos.net/learndash-academy-02/wp-content/uploads/sites/457/2019/05/course-1-free-img-400x223.jpg);
+ }
+ .image-2{
+   margin-top: 0px; 
+   background-image: url(https://websitedemos.net/learndash-academy-02/wp-content/uploads/sites/457/2019/05/course-2-free-img-400x223.jpg);
+ }
+ .image-3{
+   margin-top: 0px;
+   background-image: url(https://websitedemos.net/learndash-academy-02/wp-content/uploads/sites/457/2016/12/course-3-free-img-400x223.jpg);
+ }
+ 
+ .box-9{
+   width: 100%;
+   height: 100%;
+  
+   text-align: center;
+   margin-top: 270px;
+   
+ }
+ .box-9 h1{
+   font-size: 34px;
+   color: #2f3f50;
+ }
+ .box-9 p{
+   color: #3A3A3A;
+   font-size: 18px;
+   margin-top: 20px;
+ }
+ .social-1{
+   width: 100%;
+   height: 500px;
+  
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 100px;
+   overflow: hidden;
+ }
+ .box-10{
+   width: 45%;
+   height: 100%;
+   border: 1px solid rgb(238, 223, 223);
+   margin: auto;
+   margin-top: 5px;
+   padding-top: 10px;
+   padding-left: 15px;
+   background-color: hsl(345, 29%, 97%);
+   border-radius: 10px;
+   
+ }
+ .box-10 h4{
+   color: #817d7d;
+   font-size: 17px;
+   margin-top: 30px;
+ }
+ .box-10 p{
+   color: #706a6a;
+   line-height: 1.5em;
+   word-spacing: 0.3em;
+   font-size: 16px;
+   margin-top: 12px;
+ }
+ .image-4{
+   width: 45%;
+   height: 470px;
+   
+   background-image: url(https://websitedemos.net/learndash-academy-02/wp-content/uploads/sites/457/2019/06/manager-free-img.png);
+   background-size: cover;
+   margin: auto;
+   margin-top: 0px;
+ }
+ .name{
+  width: 100%;
+  padding-top: 0px;
+ }
+ .name h3{
+   width: 100%;
+   font-size: 19px;
+   color: rgb(116, 111, 111);
+   margin-left: 16%;
+   
+ }
+ .box-11{
+   width: 100%;
+   height: 100%;
+   font-size: 19px;
+   color: #2f3f50;
+   margin-top: 140px;
+ }
+ .student-box{
+   width: 45%;
+   height: 100%;
+   border: 1px solid #fffdfd;
+   padding: 10px;
+   background: #f0ecec;
+   border-radius: 5px;
+ 
+   margin-top: 50px;
+   
+ }
+ .box-12{
+  margin-left: 1.5%;
+}
+.box-13{
+ margin-left: 1.5%;
+}
+.box-14{
+ margin-left: 1.5%;
+}
+.box-15{
+ margin-left: 1.5%;
+ 
+}
+ .student-box p{
+   line-height: 1.8em;
+   color: #6e6969;
+   line-height: 1.4em;
+   margin-top: 15px;
+   font-size: 17px;
+ }
+ .student-box h5{
+   width: 145px;
+   height: 60px;
+   
+   margin-left: 80px;
+   margin-top: -50px;
+   color: #554a4a;
+ }
+ .student-box img{
+   width: 60px;
+   height: 60px;
+   border: 1px solid gray;
+   background-size: cover;
+   border-radius: 50%;
+   margin-top: 20px;
+   background-size: cover;
+  
+ }
+  .box-16{
+   width: 100%;
+   height: 420px;
+       
+   background: #0274BE;
+   margin-top: 80px;
+ }
+ .box-16 h1{
+   width: 90%;
+   height: 100px;
+   font-size: 36px;
+   color: #FFFFFF;
+   padding-top: 70px;
+   margin: auto;
+ }
+ .box-16 p{
+   width: 80%;
+   margin-top: 30px;
+   margin: auto;
+   color: #fafafa;
+   line-height: 1.8em;
+   font-size: 17px;
+ }
+ .box-16 button{
+   width: 182px;
+   height: 50px;
+   border: 1px solid white;
+   border-radius: 30px;
+   font-size: 15px;
+   background: #FFFFFF;
+   color: #0274BE;
+   margin-top: 30px;
+ }
+ .box-16 button:hover{
+   border: 1px solid #021111;
+   background-color: #021111;
+   transition: 1s;
+ }
+ 
+ .footer{
+   width: 100%;
+   height: 95px;
+   border-top: 1px solid rgb(190, 186, 186);
+   text-align: center;
+   background-color: #0274BE;
+   color: #FFFFFF;
+   font-size: 17px;
+   padding-top: 33px;
+ }
+ 
+   
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:729px){
+  body {
+    font-family: jost, sans-serif;
+
+  }
+  .main-box{
+    width: 100%;
+    height: 700px;
+   
+    background-color: rgb(56, 56, 194);
+   
+ }
+ .box{
+    width: 100%;
+    height: 110px;
+    display: flex;
+   
+ }
+ .icon img{
+    width: 145px;
+    height: 55px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 36%;
+ }
+ .box-1{
+    width: 80%;
+    height: 100px;
+  
+    
+    margin-left: 15%;
+    margin-top: 45px;
+ }
+ .box-1 ul li a{
+    display: inline-block;
+    color:white;
+    font-size: 16px;
+ }
+ .box-1 ul li{
+    display: inline-block;
+    padding-left: 15px;
+ }
+ .box-1 ul li a:hover{	
+  color:#021111;			 
+ }
+ .content{
+     width: 100%;
+     height: 95px;
+     font-size: 17px;
+     color: white;
+     margin-top: 90px;
+  
+ }
+ .content-2{
+      width: 90%;
+      height: 100%;
+      margin-top: 0px;
+      text-align: center;
+      margin: auto;
+      
+      color: white;
+ }
+ .content-2 p{
+     font-size: 17px;
+     line-height: 1.6em;
+ }
+ .content-2 button{
+      width: 200px;
+      height: 47px;
+      border: 1px solid #0274BE;
+      color: #0274BE;
+      font-size: 15px;
+      margin-left: 0px;
+      margin-top: 30px;
+      background: #FFFFFF;
+      border-radius: 30px;
+ }
+ .content-2 button:hover{
+     background-color:aqua;
+             transition:1s;
+ }
+ .main-box2{
+     width: 100%;
+     height: 100%;
+ 
+     display: flex;
+     margin-top: -100px;
+     display: block;
+ }
+ .boxes{
+     width: 90%;
+     height: 200px;
+     border: 1px solid rgb(241, 226, 226);
+    
+     background: rgb(248, 245, 245);
+     border-radius: 8px;
+ }
+ .box-2{
+     margin: auto;
+ }
+ .box-3{
+     margin: auto;
+     margin-top: 50px;
+ }
+ .box-4{
+     margin: auto;
+     margin-top: 50px;
+ }
+ .boxes h2{
+     color: #2f3f50;
+     margin-top: 20px;
+ }
+ .boxes p{
+     color: #3A3A3A;
+     font-size: 16px;
+     margin-top: 12px;
+     
+ }
+ .icones{
+     width: 52px;
+     height: 44px;
+    
+     background-color: #0274BE;
+     background-size: cover;
+     border-radius: 3px;
+     margin-top: 30px;
+     
+ }
+ .icon1{
+     margin-left: 45%;
+     background-image: url(https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-white.svg);
+ }
+ .icon2{
+     margin-left: 45%;
+     background-image: url(https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-white.svg);
+ }
+ .icon3{
+     margin-left: 45%;
+ 
+     background-image: url(https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-white.svg);
+ }
+ .heading{
+   width: 100%;
+   height: 100%;
+  
+   text-align: center;
+   margin-top: 120px;
+ }
+ .heading h1{
+   font-size: 33px;
+   color: #2f3f50;
+ }
+ .heading p{
+    width: 86%;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin-top: 25px;
+    margin-left: 7%;
+    color: #685a5a;
+   
+ }
+ .social{
+   width: 100%;
+   height: 100%;
+   display: block;
+   margin-top: 70px;
+   
+ }
+ .image-box{
+   width: 90%;
+   height: 285px;
+   border: 1px solid rgb(218, 208, 208);
+   background-size: cover;
+   margin: auto;
+ }
+ 
+ .markiting{
+   width: 100%;
+   height: 200px;
+   border: 1px solid rgb(218, 208, 208);
+   margin-top: 286px;
+ }
+ .markiting h2{
+   margin-top: 15px;
+   color: #2f3f50;
+   margin-left: 13px;
+ }
+ .markiting p{
+   margin-top: 13px;
+   line-height: 1.3em;
+   color: #685a5a;
+   font-size: 16px;
+  
+ 
+ }
+ 
+ .markiting button{
+   width: 90%;
+   height: 36px;
+   border: 1px solid #FFFFFF;
+   background: #428BCA;
+   color: #FFFFFF;
+   margin: auto;
+   margin-top: 20px;
+   border-radius: 5px;
+ }
+ .markiting button:hover{
+   background-color:rgb(3, 55, 114);
+             transition:1s;
+ }
+ .image-1{
+  
+   background-image: url(https://websitedemos.net/learndash-academy-02/wp-content/uploads/sites/457/2019/05/course-1-free-img-400x223.jpg);
+ }
+ .image-2{
+   margin-top: 210px; 
+   background-image: url(https://websitedemos.net/learndash-academy-02/wp-content/uploads/sites/457/2019/05/course-2-free-img-400x223.jpg);
+ }
+ .image-3{
+   margin-top: 210px;
+   background-image: url(https://websitedemos.net/learndash-academy-02/wp-content/uploads/sites/457/2016/12/course-3-free-img-400x223.jpg);
+ }
+ 
+ .box-9{
+   width: 100%;
+   height: 100%;
+  
+   text-align: center;
+   margin-top: 250px;
+   
+ }
+ .box-9 h1{
+   font-size: 34px;
+   color: #2f3f50;
+ }
+ .box-9 p{
+   color: #3A3A3A;
+   font-size: 18px;
+   margin-top: 20px;
+ }
+ .social-1{
+   width: 100%;
+   height: 100%;
+  
+   display: block;
+   justify-content: space-evenly;
+   margin-top: 70px;
+   overflow: hidden;
+ }
+ .box-10{
+   width: 85%;
+   height: 100%;
+   border: 1px solid rgb(238, 223, 223);
+   margin: auto;
+   margin-top: 50px;
+   padding-top: 10px;
+   padding-left: 15px;
+   background-color: hsl(345, 29%, 97%);
+   border-radius: 10px;
+   
+ }
+ .box-10 h4{
+   color: #817d7d;
+   font-size: 17px;
+   margin-top: 30px;
+ }
+ .box-10 p{
+   color: #706a6a;
+   line-height: 1.5em;
+   word-spacing: 0.3em;
+   font-size: 16px;
+   margin-top: 12px;
+ }
+ .image-4{
+   width: 80%;
+   height: 480px;
+   
+   background-image: url(https://websitedemos.net/learndash-academy-02/wp-content/uploads/sites/457/2019/06/manager-free-img.png);
+   background-size: cover;
+   margin: auto;
+ }
+ .name{
+  width: 100%;
+  padding-top: 30px;
+ }
+ .name h3{
+   width: 100%;
+   font-size: 19px;
+   color: rgb(116, 111, 111);
+   margin-left: 16%;
+   
+ }
+ .box-11{
+   width: 100%;
+   height: 100%;
+   font-size: 15px;
+   color: #2f3f50;
+   margin-top: 140px;
+ }
+ .student-box{
+   width: 95%;
+   height: 100%;
+   border: 1px solid #fffdfd;
+   padding: 0px;
+   background: #f0ecec;
+   border-radius: 5px;
+ 
+   margin-top: 40px;
+   
+ }
+ .box-12{
+   margin-left: 2%;
+ }
+ .box-13{
+  margin-left: 2%;
+ }
+ .box-14{
+  margin-left: 2%;
+ }
+ .box-15{
+  margin-left: 2%;
+  
+ }
+ .student-box p{
+   line-height: 1.8em;
+   color: #6e6969;
+   line-height: 1.4em;
+   margin-top: 15px;
+   font-size: 17px;
+ }
+ .student-box h5{
+   width: 145px;
+   height: 60px;
+   
+   margin-left: 80px;
+   margin-top: -50px;
+   color: #554a4a;
+ }
+ .student-box img{
+   width: 60px;
+   height: 60px;
+   border: 1px solid gray;
+   background-size: cover;
+   border-radius: 50%;
+   margin-top: 20px;
+   background-size: cover;
+  
+ }
+  .box-16{
+   width: 100%;
+   height: 450px;
+       
+   background: #0274BE;
+   margin-top: 80px;
+ }
+ .box-16 h1{
+   width: 90%;
+   height: 100px;
+   font-size: 30px;
+   color: #FFFFFF;
+   padding-top: 70px;
+   margin: auto;
+ }
+ .box-16 p{
+   width: 80%;
+   margin-top: 30px;
+   margin: auto;
+   color: #fafafa;
+   line-height: 1.8em;
+   font-size: 15px;
+ }
+ .box-16 button{
+   width: 182px;
+   height: 50px;
+   border: 1px solid white;
+   border-radius: 30px;
+   font-size: 15px;
+   background: #FFFFFF;
+   color: #0274BE;
+   margin-top: 30px;
+ }
+ .box-16 button:hover{
+   border: 1px solid #021111;
+   background-color: #021111;
+   transition: 1s;
+ }
+ 
+ .footer{
+   width: 100%;
+   height: 95px;
+   border-top: 1px solid rgb(190, 186, 186);
+   text-align: center;
+   background-color: #0274BE;
+   color: #FFFFFF;
+   font-size: 17px;
+   padding-top: 33px;
+ }
+ 
+   
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:576px){
+    body {
+      font-family: jost, sans-serif;
+  
+    }
+    .main-box{
+      width: 100%;
+      height: 700px;
+     
+      background-color: rgb(56, 56, 194);
+     
+   }
+   .box{
+      width: 100%;
+      height: 110px;
+      display: flex;
+      display: block;
+   }
+   .icon img{
+      width: 135px;
+      height: 50px;
+      cursor: pointer;
+      margin-top: 25px;
+      margin-left: 36%;
+   }
+   .box-1{
+      width: 80%;
+      height: 100px;
+    
+      
+      margin-left: 13%;
+      margin-top: 32px;
+   }
+   .box-1 ul li a{
+      display: inline-block;
+      color:white;
+      font-size: 16px;
+   }
+   .box-1 ul li{
+      display: inline-block;
+      padding-left: 15px;
+   }
+   .box-1 ul li a:hover{	
+    color:#021111;			 
+   }
+   .content{
+       width: 100%;
+       height: 95px;
+       font-size: 16px;
+       color: white;
+       margin-top: 90px;
+    
+   }
+   .content-2{
+        width: 68%;
+        height: 80px;
+        margin-top: 0px;
+        text-align: center;
+        margin: auto;
+        
+        color: white;
+   }
+   .content-2 p{
+       font-size: 17px;
+       line-height: 1.6em;
+   }
+   .content-2 button{
+        width: 200px;
+        height: 47px;
+        border: 1px solid #0274BE;
+        color: #0274BE;
+        font-size: 15px;
+        margin-left: 0px;
+        margin-top: 30px;
+        background: #FFFFFF;
+        border-radius: 30px;
+   }
+   .content-2 button:hover{
+       background-color:aqua;
+               transition:1s;
+   }
+   .main-box2{
+       width: 100%;
+       height: 100%;
+   
+       display: flex;
+       margin-top: -100px;
+       display: block;
+   }
+   .boxes{
+       width: 90%;
+       height: 200px;
+       border: 1px solid rgb(241, 226, 226);
+      
+       background: rgb(248, 245, 245);
+       border-radius: 8px;
+   }
+   .box-2{
+       margin: auto;
+   }
+   .box-3{
+       margin: auto;
+       margin-top: 50px;
+   }
+   .box-4{
+       margin: auto;
+       margin-top: 50px;
+   }
+   .boxes h2{
+       color: #2f3f50;
+       margin-top: 20px;
+   }
+   .boxes p{
+       color: #3A3A3A;
+       font-size: 16px;
+       margin-top: 12px;
+       
+   }
+   .icones{
+       width: 52px;
+       height: 44px;
+      
+       background-color: #0274BE;
+       background-size: cover;
+       border-radius: 3px;
+       margin-top: 30px;
+       
+   }
+   .icon1{
+       margin-left: 45%;
+       background-image: url(https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-white.svg);
+   }
+   .icon2{
+       margin-left: 45%;
+       background-image: url(https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-white.svg);
+   }
+   .icon3{
+       margin-left: 45%;
+   
+       background-image: url(https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-white.svg);
+   }
+   .heading{
+     width: 100%;
+     height: 100%;
+    
+     text-align: center;
+     margin-top: 120px;
+   }
+   .heading h1{
+     font-size: 30px;
+     color: #2f3f50;
+   }
+   .heading p{
+      width: 86%;
+      font-size: 15px;
+      line-height: 1.5em;
+      margin-top: 25px;
+      margin-left: 7%;
+      color: #685a5a;
+     
+   }
+   .social{
+     width: 100%;
+     height: 100%;
+     display: block;
+     margin-top: 70px;
+     
+   }
+   .image-box{
+     width: 90%;
+     height: 285px;
+     border: 1px solid rgb(218, 208, 208);
+     background-size: cover;
+     margin: auto;
+   }
+   
+   .markiting{
+     width: 100%;
+     height: 200px;
+     border: 1px solid rgb(218, 208, 208);
+     margin-top: 286px;
+   }
+   .markiting h2{
+     margin-top: 15px;
+     color: #2f3f50;
+     margin-left: 13px;
+   }
+   .markiting p{
+     margin-top: 13px;
+     line-height: 1.3em;
+     color: #685a5a;
+     font-size: 16px;
+    
+   
+   }
+   
+   .markiting button{
+     width: 90%;
+     height: 36px;
+     border: 1px solid #FFFFFF;
+     background: #428BCA;
+     color: #FFFFFF;
+     margin: auto;
+     margin-top: 20px;
+     border-radius: 5px;
+   }
+   .markiting button:hover{
+     background-color:rgb(3, 55, 114);
+               transition:1s;
+   }
+   .image-1{
+    
+     background-image: url(https://websitedemos.net/learndash-academy-02/wp-content/uploads/sites/457/2019/05/course-1-free-img-400x223.jpg);
+   }
+   .image-2{
+     margin-top: 210px; 
+     background-image: url(https://websitedemos.net/learndash-academy-02/wp-content/uploads/sites/457/2019/05/course-2-free-img-400x223.jpg);
+   }
+   .image-3{
+     margin-top: 210px;
+     background-image: url(https://websitedemos.net/learndash-academy-02/wp-content/uploads/sites/457/2016/12/course-3-free-img-400x223.jpg);
+   }
+   
+   .box-9{
+     width: 100%;
+     height: 100%;
+    
+     text-align: center;
+     margin-top: 250px;
+     
+   }
+   .box-9 h1{
+     font-size: 35px;
+     color: #2f3f50;
+   }
+   .box-9 p{
+     color: #3A3A3A;
+     font-size: 18px;
+     margin-top: 20px;
+   }
+   .social-1{
+     width: 100%;
+     height: 100%;
+    
+     display: block;
+     justify-content: space-evenly;
+     margin-top: 70px;
+     overflow: hidden;
+   }
+   .box-10{
+     width: 85%;
+     height: 100%;
+     border: 1px solid rgb(238, 223, 223);
+     margin: auto;
+     margin-top: 50px;
+     padding-top: 10px;
+     padding-left: 15px;
+     background-color: hsl(345, 29%, 97%);
+     border-radius: 10px;
+     
+   }
+   .box-10 h4{
+     color: #817d7d;
+     font-size: 17px;
+     margin-top: 30px;
+   }
+   .box-10 p{
+     color: #706a6a;
+     line-height: 1.5em;
+     word-spacing: 0.3em;
+     font-size: 16px;
+     margin-top: 12px;
+   }
+   .image-4{
+     width: 80%;
+     height: 480px;
+     
+     background-image: url(https://websitedemos.net/learndash-academy-02/wp-content/uploads/sites/457/2019/06/manager-free-img.png);
+     background-size: cover;
+     margin: auto;
+   }
+   .name{
+    width: 100%;
+    padding-top: 30px;
+   }
+   .name h3{
+     width: 100%;
+     font-size: 19px;
+     color: rgb(116, 111, 111);
+     margin-left: 16%;
+     
+   }
+   .box-11{
+     width: 100%;
+     height: 100%;
+     font-size: 15px;
+     color: #2f3f50;
+     margin-top: 140px;
+   }
+   .student-box{
+     width: 95%;
+     height: 100%;
+     border: 1px solid #fffdfd;
+     padding: 0px;
+     background: #f0ecec;
+     border-radius: 5px;
+   
+     margin-top: 40px;
+     
+   }
+   .box-12{
+     margin-left: 2%;
+   }
+   .box-13{
+    margin-left: 2%;
+   }
+   .box-14{
+    margin-left: 2%;
+   }
+   .box-15{
+    margin-left: 2%;
+    
+   }
+   .student-box p{
+     line-height: 1.8em;
+     color: #6e6969;
+     line-height: 1.4em;
+     margin-top: 15px;
+     font-size: 17px;
+   }
+   .student-box h5{
+     width: 145px;
+     height: 60px;
+     
+     margin-left: 80px;
+     margin-top: -50px;
+     color: #554a4a;
+   }
+   .student-box img{
+     width: 60px;
+     height: 60px;
+     border: 1px solid gray;
+     background-size: cover;
+     border-radius: 50%;
+     margin-top: 20px;
+     background-size: cover;
+    
+   }
+    .box-16{
+     width: 100%;
+     height: 500px;
+         
+     background: #0274BE;
+     margin-top: 80px;
+   }
+   .box-16 h1{
+     width: 90%;
+     height: 100px;
+     font-size: 30px;
+     color: #FFFFFF;
+     padding-top: 70px;
+     margin: auto;
+   }
+   .box-16 p{
+     width: 60%;
+     margin-top: 30px;
+     margin: auto;
+     color: #fafafa;
+     line-height: 1.8em;
+     font-size: 15px;
+   }
+   .box-16 button{
+     width: 182px;
+     height: 50px;
+     border: 1px solid white;
+     border-radius: 30px;
+     font-size: 15px;
+     background: #FFFFFF;
+     color: #0274BE;
+     margin-top: 30px;
+   }
+   .box-16 button:hover{
+     border: 1px solid #021111;
+     background-color: #021111;
+     transition: 1s;
+   }
+   
+   .footer{
+     width: 100%;
+     height: 95px;
+     border-top: 1px solid rgb(190, 186, 186);
+     text-align: center;
+     background-color: #0274BE;
+     color: #FFFFFF;
+     font-size: 17px;
+     padding-top: 33px;
+   }
+   
+     
+}
