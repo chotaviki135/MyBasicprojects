@@ -1,0 +1,676 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+section{
+    overflow: hidden;
+}
+body a{
+    text-decoration: none;
+}
+body ul li{
+    list-style-type: none;
+}
+body .ul li{
+    list-style-type: none;
+}
+header{
+    height: 96px;
+    position: relative;
+    align-items: center;
+    border: 1px solid rgb(224, 220, 220);
+}
+
+.header-search{
+    width: 36.5%;
+    height: 2.9rem;
+    border-radius: 3rem;
+    outline: none;
+
+}
+.header .bi,.discover .bi{
+    font-size: 20px;
+}
+.icon{
+    position: relative;
+    right: 2rem;
+    top: .6rem;
+    color: #757272;
+}
+.form-control{
+    font-size: 14px;
+}
+.account{
+    font-size: 11px;
+    color: #282b30;
+}
+ .uk img{
+    width: 1.1rem;
+    height: 1.1rem;
+    
+}
+.second-header .container{
+    padding: 0 71px;
+    margin: auto;
+}
+.second-header{
+    height: 2.4rem;
+    width: 100%;
+    align-content: center;
+    border-bottom: 2px solid rgb(224, 220, 220);
+}
+.second-header ul li a{
+    font-size: 14px;
+    color: #f2f2f2;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+}
+
+.second-header .bro  li a{
+    font-size: 12px;
+}
+.second-header ul li a:hover{
+    border-bottom: 4px solid black;
+}
+
+
+.discover .zone{
+    border-radius: 30px;
+    align-items: center;
+    border: 1px solid rgb(224, 220, 220);
+}
+.discover .img1 img{
+    width: 66px;
+    height: 10px;
+}
+.discover .great p{
+    color: #D1005e;
+    font-size: 11px;
+}
+.discover .save p{
+    color: #1326db;
+}
+.discover .up p{
+    color: #1d2128;
+}
+.glaxy .computer{
+    border-radius: 12px;
+    padding: 22px 0 24px;
+    border: 1px solid  rgb(224, 220, 220);
+}
+.glaxy ul li a{
+    font-size: 14px;
+    color: #15181d;
+    
+}
+.glaxy .mobil{
+    height: 454px;
+
+}
+.glaxy .computer a{
+   
+    color: #15181d;
+    font-size: 14px;
+}
+.glaxy .container,.our .container,.discover .container,.student .container,.labor .container,.explore .container,.trending .container{
+   padding: 0px 80px;
+    
+}  
+.glaxy .sam{
+    padding: 30px 0 30px 50px;
+    width: 48%;
+}  
+.glaxy .samsung{
+    border-radius: 12px;
+   
+    border: 1px solid  rgb(224, 220, 220);
+}
+.glaxy .btnn{
+    background-color: #1d2128;
+    color: #fff;
+    font-size: 15px;
+   
+}
+.glaxy .btn-1,.our .btn-1{
+    border-radius: 0%;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.car{
+        justify-content: start;
+}
+.carousel-indicators .car{
+    background-color: #1326db;
+   
+}
+.carousel-indicators{
+    justify-content: start;
+}
+.glaxy .img2{
+    background-size: cover;
+    background-position: center;
+}
+.glaxy  .bi{
+    font-size: 25px;
+   
+}
+.glaxy .computer .top:hover{
+    background-color: #ECF0F4; 
+    border-radius: 24px;
+    
+}
+
+.student .row,.labor .row{
+    border-radius: 15px;
+    border: 1px solid  rgb(224, 220, 220);
+}
+.student h5{
+    color: blue;
+    font-style: italic;
+    
+}
+.normal{
+    text-align: center;
+}
+.student p{
+    font-size: 14px;
+    color: #282c33;
+}
+.student .usb,.causal{
+    font-size: 14px;
+    color: #1d2128;
+}
+.student .btn,.labor .btn{
+    background-color: #15181d;
+    color: #fff;
+    font-size: 13px;
+}
+.student img{
+    width: 147px;
+    height: 147px;
+
+}
+
+.student .b,.labor .b{
+    width: 16px;
+    height: 16px;
+}
+.student .hot{
+    width: 40px;
+    height: 25px;
+    position: relative;
+    top: 10px;
+    left: 0px;
+    background-color: #FF7316;
+    color: #fff;
+    font-size: 11px;
+    padding: 5px 9px 6px ;
+}
+.student .hot-1{
+    width: 40px;
+    height: 25px;
+    position: relative;
+    top: -5px;
+    left: 0px;
+    
+}
+.student .btn{
+    background-color: #15181d;
+}
+.student .bi,.labor .bi{
+    font-size: 20px;
+    color: #7c818b;
+    opacity: 0;
+   
+}
+.student .bi:hover{
+    
+    color: #1e1f20;
+}
+.card-img-overlay {
+    position: absolute;
+    top: 15px;
+}
+.list{
+    position: relative;
+    top: 15px;
+}
+.student .btn-2,.labor .btn-2{
+    opacity: 0;
+    transition: bottom 0.5s ease-out;
+    bottom: 0px;
+    position: relative;
+
+}
+ .hove:hover .bi{
+    opacity: 1;
+    transition: all 0.5s;
+}
+ .hove:hover .btn-2{
+    opacity: 1;
+    bottom: 40px;
+}
+.card:hover .img1{
+    -webkit-transform: scaleX(-1);
+     transform: scaleX(-1);
+    
+}
+
+.student .img-5:hover{
+    transition: all 1s;
+    background-image: url();
+}
+.labor img{
+    width: 147px;
+    height: 147px;
+}
+.labor .day{
+    padding: 2px;
+    width: 124px;
+    background-color: rgb(0, 0, 255);;
+    color: #fff;
+    margin: auto;
+}
+.labor .sale{
+    padding: 2px;
+    width: 61px;
+    margin: auto;
+    background-color: rgb(0, 169, 157);;
+    color: #fff;
+}
+.labor .btn-3{
+    background-color: #15181d;
+    color: #fff;
+}
+.labor p{
+    font-size: 14px;
+    color: #1d2128;
+}
+.labor .bi:hover{
+    
+    color: #1e1f20;
+}
+.labor .hot{
+    position: absolute;
+    background-color: #FF7316;
+    width: 42px;
+    height: 25px;
+    padding: 3px 9.7px 6px ;
+    border-radius: 12px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.today .container{
+    background-color: #ECF0F4;
+    padding: 41px 48px 40px;
+    border-radius: 15px;
+}
+
+.today .save{
+    font-size: 11px;
+
+}
+.today .light{
+    font-size: 14px;
+    color: #282c33;
+}
+.today .buy{
+    background-color: #15181d;
+    color: #fff;
+    font-size: 12px;
+    
+}
+.today .see{
+    font-size: 14px;
+    border-radius: 0%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.today .lrn{
+    font-size: 13px;
+    border-radius: 0%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.today .card img{
+    transition: 0.5s;
+     
+}
+
+.today .up{
+    border-radius: 18px;
+    background: #fff;
+    
+    
+}
+.today .card:hover .ap{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.today .robot:hover .mic{
+    transform: scale(1.1);
+    transition: 0.2s;
+    
+}
+.today .mic{
+    width: 170px;
+    height: 170px;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+.today .robot{
+    background-color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+.explore .phone{
+    width: 170px;
+    height: 170px;
+    
+}
+.explore .more{
+    background-color: #ecf0f4;
+    border-radius: 15px;
+   
+}
+.explore img:hover{
+    -webkit-transform: scaleX(-1);
+     transform: scaleX(-1);
+}
+.explore .more:hover{
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 2px rgb(235, 230, 230);
+}
+.feature .see{
+    font-weight: 500;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+
+}
+.feature .col{
+    border-right: 1px solid rgb(240, 236, 236);
+    height: 370px;
+}
+
+.feature .img1{
+    width: 195px;
+    height: 204px;
+}
+.feature .access{
+    font-size: 11px;
+    color: #7c818b;
+}
+
+.trending .see{
+    font-weight: 500;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+
+}
+.trending img{
+    width: 170px;
+    height: 80px;
+    
+}
+.world .bi{
+    font-size: 46px;
+}
+.world p{
+    font-size: 14px;
+    color: #1d2128;
+    
+}
+.world .container{
+    background-color: #ecf0f4;
+    padding: 45px;
+    border-radius: 15px;
+}
+.call .container,.mota .container,.lastfooter .container{
+    padding: 0px 50px;
+}
+.call .bi{
+    font-size: 26px;
+}
+.call p{
+    font-size: 14px;
+}
+.call .btn{
+    font-size: 14px;
+}
+.call .btn:hover{
+    border-bottom: 1px solid black;
+}
+.call .form-control{
+    width: 63%;
+    height: 60px;
+    background-color:  #ECF0F4;
+    border-radius: 30px;
+    outline: none;
+}
+.call .e{
+    font-size: 14px;
+    color: #757272;
+}
+.call .btn-1{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 0px 48px;
+}
+.mota p{
+    font-size: 14px;
+    color: #757272;
+}
+.mota .ul li a{
+    
+    color: #757272;
+}
+.mota .ull li a{
+    font-size: 14px;
+    color: #45484d;
+    
+}
+.mota .ull li a:hover{
+    border-bottom: 2px solid black;
+}
+.lastfooter .bi{
+    font-size: 18px;
+    color: #282c33;
+}
+.lastfooter .cop{
+    font-size: 14px;
+    color: #1d2128;
+}
+ .glo{
+    justify-content: end;
+}
+@media only screen and (max-width:1199px) {
+    .glaxy .computer{
+        border:  none;
+    }
+    .second-header .container,.glaxy .container,.discover .container,.our .container,.student .container,.labor .container,.explore .container,.trending .container{
+        padding: 0px 0px;
+        margin: auto;
+    }
+    .header-search{
+        width: 50%;
+    }
+    .call .container,.mota .container,.lastfooter .container{
+        padding: 0px 0px;
+    }
+    
+    
+} 
+
+@media only screen and (max-width:991px) {
+
+    .header-search{
+        width: 49%;
+    } 
+    
+     .explore .phone{
+        margin: auto;
+     }
+     .trending .col-12{
+        text-align: center;
+     }
+    
+}
+
+
+@media only screen and (max-width:768px) {
+
+    header{
+        height: 125px;
+    }
+    .header-search{
+        width: 100%;
+        margin-top: 45px;
+    } 
+    .second-header ul li a{
+        padding: 5px 3px;  
+        
+}
+    .logo{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navbar-toggler{
+        
+        position: absolute;
+        top: 0;
+        left: 10px;
+    }
+    .uk{
+       display: none;
+       display: block;
+       opacity: 0;
+    }
+    .glaxy .samsung{
+        display: block;
+    }
+    .list{
+        position: relative;
+        
+    }
+    .explore .col-12{
+        text-align: center;
+    }
+    .world .globe{
+        justify-content: center;
+    }
+    .call .box-1{
+        justify-content: space-between;
+    }
+    .lastfooter .col-12{
+        text-align: center;
+    }
+    .lastfooter .glo,.footer .glo{
+        justify-content: center;
+    }
+    .footer .ull{
+        justify-content: center;
+    }
+}
+
+
+
+@media only screen and (max-width:576px) {
+
+
+    .second-header .bestseller{
+        display: none;
+    }
+    .second-header .clear{
+        display: none;
+    }
+    
+    .glaxy .sam{
+        padding: 30px 0 30px 50px;
+        width: 100%;
+    }  
+    .carousel-indicators{
+        justify-content: center;
+    }
+    .input-group{
+        width: 100%;
+    } 
+     .usb{
+        text-align: center;
+    }
+     .b-top{
+        margin: auto;
+    }
+    .student .img1,.labor .img1{
+        margin: auto;
+    }
+    .student .hove .btn-2{
+       margin: auto;
+    }
+    .hot-top{
+        margin: auto;
+        text-align: center;
+    }
+    .labor .sal{
+        display: none;
+    }
+    .list{
+        text-align: center;
+    }
+    .first{
+        justify-content: center;
+    }
+    
+    .last{
+      margin: auto;
+    }
+    .today .ap{
+        margin-top: 40px;
+    }
+    .today .intro{
+        text-align: center;
+        
+    }
+    .today .robot .mic{
+       display: block;
+       margin: 0 auto;
+       margin-top: 10px;
+    } 
+
+    .today .robot{
+        justify-content: center;
+    }
+    .today .container{
+       padding: 0px;
+    
+    }
+    .explore .col-12{
+        text-align: center;
+    }
+    .feature .access{
+        text-align: center;
+    }
+    .feature .top,.labor .top{
+        justify-content: center;
+    }
+    .feature .btn{
+        align-content: center;
+    }
+    .trending .col-12{
+        text-align: center;
+    }
+    
+    .world .globe{
+        text-align: center;
+    }
+    
+    
+    
+}
