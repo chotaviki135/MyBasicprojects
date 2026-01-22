@@ -1,0 +1,1673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://demo.hasthemes.com/flone-preview/flone/assets/img/logo/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./flone.css">
+</head>
+<style>
+ *{
+    padding: 0px;
+    margin: 0px;
+}
+body a{
+    text-decoration: none;
+}
+header ul li{
+    list-style-type: none;
+}
+.usd{
+    padding: 0px 62px;
+}
+ul{
+    list-style-type: none;
+}
+.dropdown-menu ul li a,.english a,.free,.english{
+    color: #666464;
+}
+.dropdown {
+    position: relative;
+    margin-right: 20px;
+} 
+.nav-item a:hover{
+    color: #a749ff;
+}
+header ul .dropdown-menu{
+    position: absolute;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.second-header .navbar-toggler{
+    padding: 0px;
+    box-shadow: none;
+    border: 1px solid #000;
+    border-radius: 0%;
+}
+header span{
+    color: #ff1c1c;
+}
+.second-header .navbar{
+    width: 100%;
+    height: 75px;
+}
+.second-header ul li a:hover{
+    color: #a749ff;
+}
+.second-header .icon-link ul li a:hover{
+    color: #a749ff;
+}
+.second-header .icon-link ul li a{
+    color: #000;
+}
+.second-header .iconss{
+    position: absolute;
+    right: 103px;
+    top: 26px;
+}
+#covid .carousel-item .image-1 img{
+    width: 100%;
+    height: 700px;
+}
+#covid .carousel-caption img{
+    position: relative;
+    top: 40px;
+}
+#covid h4, h1{
+    font-family: "Josefin Sans", sans-serif;;
+}
+#covid h1{
+     font-size: 66px;
+}
+#covid .carousel-caption{
+    text-align: left; 
+}
+#covid .control{
+    width: 60px;
+    height: 60px;
+    background-color: #a749ff;
+    border-radius: 50%;
+    opacity: 0;
+    position: absolute;
+    top: 45%;
+    
+}
+.control-2{
+    left: 15px;
+}
+.control-1{
+   right: 15px;
+}
+#covid:hover .control{
+    opacity: 1;
+}
+#covid .btn{
+    background-color: #fff;
+    color: black;
+    border-radius: 0%;
+}
+#covid .btn:hover{
+    background-color: #782ac2;
+    color: #fff;
+    transition: 0.8s ease-out;
+}
+ .card{
+    
+    transition: 0.5s ease;
+    cursor: pointer; 
+}
+.medicine .card:hover img{
+    transform: scale(1.2);
+    transition: 1s;
+    
+}
+.medicine .container-fluid{
+    height: auto;
+}
+.medicine .off{
+    color: #98bac7;
+    position: absolute;
+    bottom: -19px;
+}
+.online .container{
+    width: 100%;
+    height: auto;
+    border: 1px solid #eeeeee;
+    padding: 50px 20px;
+}
+.col-lg-4:hover img{
+    animation: buzz 0.3s linear infinite;
+}
+@keyframes buzz{
+    0% {transform: translateX(0);}
+    25%{transform: translateX(-3px);}
+    50% {transform: translateX(3px);}
+    75%{transform: translateX(-3px);}
+    100%{transform: translateX(0);}
+}
+.products nav li :hover{
+  color: #a749ff;
+  cursor: pointer;
+}
+.products .nav-link{
+    color: #000000;
+}
+.products .nav-link:hover{
+    color: #a749ff;
+    border-bottom: 2px solid #a749ff;
+}
+.products img{
+    border-radius: 0%;
+    cursor: pointer;
+}
+.products .title a:hover{
+    color: #d84040;
+}
+.products .heart a:hover{
+    color: #d84040;
+}
+.products .title .hh,.hh{
+    color: #141414;
+}
+.products .icons .bi{
+    padding: 8px 10px;
+    background-color: #d84040;
+    border-radius: 50%;
+    opacity: 0;
+    transition: 1s;
+}
+.products .card:hover .bi{
+    color: #fff;
+    opacity: 1;
+}
+.products .icons{
+    position: relative;
+    top: 48%;
+    place-items: center;
+}
+.products .dollor{
+    color: #d84040;
+}
+.medix .box{
+    width: 37%;
+    
+}
+
+.medix .box-2{
+    width: 26%;
+}
+.medix h2{
+    font-size: 35px;
+}
+
+.medix .btn{
+   color: #fff;
+   border-bottom: 2px solid #fff;
+   border-radius: 0%; 
+   border: none;
+   border-bottom: 2px solid #fff;
+}
+.medix .btn:hover{
+    color: #000; 
+    border-bottom: 2px solid #000;
+}
+.medix .card:hover img{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.upp{
+    position: absolute;
+    right: 50px;
+}
+.recent .card img{    
+    cursor: pointer;
+    transition: 1s;
+}
+
+.recent .card-img:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.recent .medical{
+    position: absolute;
+    width: 61px;
+    height: 21px;
+    top: 10px;
+    left: 10px;
+    font-weight: 500;
+    padding: 0px 6px 5px;
+    background-color: purple;
+    color: #fff;
+    font-size: 13px;
+}
+.recent .lorem{
+    width: 81%;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    top: -60px;
+    margin: auto;
+    padding: 14px 40px;
+}   
+.recent .lorem .admin a,.admin{
+    color: #666;
+    font-style: italic;
+}
+.recent .lorem .admin a:hover{
+    color: #a749ff;
+}
+.order{
+    background-image: url(https://demo.hasthemes.com/flone-preview/flone/assets/img/bg/bg-7.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 52px 0px 52px;
+    align-items: center;
+}
+.order h3{
+    font-family: "Lobster","cursive";
+    font-style: italic;
+}
+footer{
+    background-color: #f6f6f8;
+    width: 100%;
+    height: auto;
+}
+.footer .ul{
+    list-style-type: none;
+}
+.footer .ul li a{
+    color: #5d5d5d;
+}
+.footer .ul li a:hover{
+     color: #a749ff;
+}
+.footer .btn{
+    border-radius: 0%;
+    border: none;
+    color: #313131;
+    border-bottom: 2px solid #9b9b9c;
+}
+.footer .btn:hover{
+    color: #a749ff;
+    border-bottom: 2px solid #a749ff;
+}
+.footer input{
+    border: none;
+    color: #333;
+    background-color: transparent;
+    padding: 2px 10px 2px 0px;
+    outline: none;
+    border-bottom: 2px solid #ebebeb;
+}
+@media only screen and (max-width:991px) {
+#covid h1{
+    font-size: 43px;
+}
+.medicine h5{
+    font-size: 25px;
+}
+.medicine h3{
+    font-size: 45px;
+}
+.medicine .off{
+    color: #98bac7;
+    position: absolute;
+    bottom: -18px;
+}
+.upp{
+    position: absolute;
+    right: 47px;
+    top: 26%;
+}
+.medix .main-box{
+   flex-wrap: wrap;
+   display: block;
+}
+.medix .box{
+    width: 100%;
+}
+.medix .box-2{
+    width: 100%;
+}
+}
+@media only screen and (max-width:768px) {
+.second-header .iconss{
+    position: absolute;
+    right: 57px;
+    top: 26px;
+}
+.usd{
+    padding: 0px 10px;
+}
+#covid h1{
+   font-size: 32px;
+}
+#covid .btn{
+    background-color: #fff;
+    color: black;
+    border-radius: 0%;
+    margin-top: 15px;
+}
+#covid .carousel-caption img{
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+#covid .carousel-item .image-1 img{
+    width: 100%;
+    height: auto;
+}
+.medicine h5{
+    font-size: 22px;
+}
+.medicine h3{
+    font-size: 38px;
+}
+.upp{
+    position: absolute;
+    right: 47px;
+    top: 23%;
+}
+}
+@media only screen and (max-width:575px) {
+.free{
+    margin: auto;
+    justify-content: center;
+}  
+.top{
+    justify-content: center;
+}
+#covid h1{
+     font-size: 28px;
+}
+#covid h4{
+     font-size: 19px;
+}
+#covid .carousel-caption img{
+    width: 100%;
+    position: relative;
+    top: 20px;
+    margin: auto;
+}
+#covid .carousel-item .image-1 img{
+     width: 100%;
+     height: 640px;
+}
+#covid .carousel-caption{
+     text-align: center; 
+}
+#covid .last{
+     position: relative;
+     top: -10px;
+}
+.medicine h5{
+    font-size: 18px;
+}
+.medicine h3{
+    font-size: 24px;
+}
+.medicine .off{
+    color: #98bac7;
+    position: absolute;
+    bottom: -15px;
+}
+.hand{
+    position: absolute;
+    top: 30px;
+}
+.upp{
+    position: absolute;
+    right: 30px;
+    top: 26%;
+}
+.medix h2{
+    font-size: 26px;
+}
+}
+
+</style>
+<body>
+     <header>
+         <div class="container-fluid usd">
+               <div class="row pt-3 border-bottom m-0">
+                 <div class="col-12 col-sm-6 col-md-6 col-lg-6 px-0 mb-0">
+                   <ul class="top d-flex px-0">
+                     <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle border-end pe-md-2 ps-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        English
+                      </a>
+                    <ul class="dropdown-menu border-0">
+                        <li><a class="dropdown-item" href="#">Arabic</a></li>
+                        <li><a class="dropdown-item" href="#">Bangla</a></li>
+                        <li><a class="dropdown-item" href="#">Hindi</a></li>
+                        <li><a class="dropdown-item" href="#">Spanish</a></li>
+                    </ul>
+                  </li>
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle border-end pe-md-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        USD
+                       </a>
+                     <ul class="dropdown-menu border-0">
+                       <li><a class="dropdown-item" href="#">Taka(BDT)</a></li>
+                       <li><a class="dropdown-item" href="#">Riyal(SAR)</a></li>
+                       <li><a class="dropdown-item" href="#">Rupee(INR)</a></li>
+                       <li><a class="dropdown-item" href="#">Dirham()AED</a></li>
+                     </ul>
+                   </li>
+                       <p class="english mb-0">Call Us 3965410</p>
+                  </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 px-0">
+                      <div class="free justify-content-sm-end d-flex">
+                        <p class="mb-0">Free delivery on order over <span>$200</span></p>
+              </div>
+             </div>
+           </div>
+        </div>
+</header>
+ <section class="second-header">
+                <nav class="navbar   navbar-expand-lg">
+                    <div class="container-fluid  px-md-5 mx-md-3 align-items-center">
+                          <a class="navbar-brand" href="#"><img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/logo/logo.png" alt=""></a>
+                          <div class="icon-link  d-block d-lg-none">
+                              <ul class="d-flex mb-0 iconss">
+                               <li class="me-2"><a href="#"><i class="bi bi-search"></i></a></li>
+                               <li class="mx-2"><a href="#"><i class="bi bi-person"></i></a></li>
+                               <li class="mx-2"><a href="#"><i class="bi bi-heart"></i></a></li>
+                               <li class="ms-2"><a href="#"><i class="bi bi-cart-check"></i></a></li>
+                             </ul>
+                          </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                            <i class="bi bi-list"></i>
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                         <div class="offcanvas-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <ul class="navbar-nav justify-content-center flex-grow-1 ">
+                              <li class="nav-item">
+                                  <a class="nav-link fw-medium me-1 ms-1 ms-lg-0" href="#">Home</a>
+                              </li>
+                              <li class="nav-item ">
+                                  <a class="nav-link fw-medium mx-1" href="#">Shop</a>
+                              </li>
+                              <li class="nav-item">
+                                    <a class="nav-link fw-medium mx-1" href="#">Collection</a>
+                              </li>
+                              <li class="nav-item">
+                                    <a class="nav-link fw-medium mx-1" href="#">Page</a>
+                              </li>
+                              <li class="nav-item">
+                                    <a class="nav-link fw-medium mx-1" href="#">Blog</a>
+                              </li>
+                              <li class="nav-item">
+                                    <a class="nav-link fw-medium mx-1" href="#">About</a>
+                              </li>
+                              <li class="nav-item">
+                                    <a class="nav-link fw-medium ms-1" href="#">Contact</a>
+                              </li>
+                         </ul>
+                                      <div class="icon-link d-none d-lg-block">
+                                        <ul class="d-flex mb-0 mt-2 ms-5">
+                                        <li class="me-2"><a href="#"><i class="bi bi-search"></i></a></li>
+                                        <li class="mx-2"><a href="#"><i class="bi bi-person"></i></a></li>
+                                        <li class="mx-2"><a href="#"><i class="bi bi-heart"></i></a></li>
+                                        <li class="ms-2"><a href="#"><i class="bi bi-cart-check"></i></a></li>
+                                    </ul>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                    </nav>
+</section>
+<section id="covid">
+                   <div id="carouselExample" class="carousel slide">
+                       <div class="carousel-inner">
+                            <div class="carousel-item active">
+                               <div class="image-1"><img src="https://wallpapers.com/images/hd/sky-blue-background-lwbnb6ylgz9idh1f.jpg" class="d-block w-100" alt="..."></div>
+                                <div class="carousel-caption  py-0 d-flex w-100">
+                            <div class="row">
+                                  <div class="col-8 col-sm-5 col-md-5 col-lg-6 px-0  align-content-center last">
+                                     <h4 class=" fw-bold">Covid - 19 Collection </h4>
+                                     <h1 class=" fw-bold">Medicine & PPE <br> Stay Safe</h1>
+                                     <div class="btn px-md-5 py-md-3 fw-bold mt-md-4"><span>Shop Now</span></div>
+                                  </div>
+                                  <div class="col-8 col-sm-7 col-md-7 col-lg-6  px-0 ">
+                                    <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/slider/single-slide-33-2.png" class="" alt="">
+                                 </div>
+                            </div>   
+                           </div>
+                        </div>
+                            <div class="carousel-item">
+                              <div class="image-1"><img src="https://wallpapers.com/images/hd/sky-blue-background-lwbnb6ylgz9idh1f.jpg" class="d-block w-100" alt="..."> </div>
+                              <div class="carousel-caption py-0 d-flex w-100">
+                                <div class="row ">
+                                  <div class="col-8 col-sm-5 col-md-5 col-lg-6 px-0  align-content-center last">
+                                     <h4 class=" fw-bold">Covid - 19 Collection </h4>
+                                     <h1 class=" fw-bold">Medicine & PPE <br> Stay Safe</h1>
+                                     <div class="btn px-md-5 py-md-3 fw-bold mt-md-4">Shop Now</div>
+                                  </div>
+                                  <div class="col-8 col-sm-7 col-md-7 col-lg-6 px-0 ">
+                                    <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/slider/single-slide-33-1.png" class="" alt="">
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                          <button class="carousel-control-prev control control-2" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next control control-1 "type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+            
+</section>
+<section class="medicine mt-5 pt-2">
+          <div class="container-fluid px-md-5">
+                <div class="row row-cols-1 row-cols-md-1  row-cols-lg-3 ">
+                      <div class="col py-3 py-lg-0">
+                          <div class="card border-0 overflow-hidden">
+                              <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/banner/banner-86.png" class="card-img" alt="...">
+                            <div class="card-img-overlay p-0 inside">
+                                <h5 class="card-title fw-bold mt-2 ms-4">Covid-19</h5>
+                                <h3 class="fw-bold ms-4">Medicine <br>& Equipment</h3>
+                                <h1 class="off fw-bold  display-5">20% OFF</h1>
+                            </div>
+                          </div>
+                       </div>
+                          <div class="col py-3 py-lg-0">
+                            <div class="card border-0 overflow-hidden">
+                              <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/banner/banner-87.png" class="card-img" alt="...">
+                              <div class="card-img-overlay p-0 inside">
+                                <h5 class="card-title fw-bold mt-2 ms-4">Covid-19</h5>
+                                <h3 class="fw-bold ms-4">Medix Mask <br>& Sanitizer</h3>
+                                <h1 class="off fw-bold  display-5">30% OFF</h1>
+                              </div>
+                            </div>
+                       </div>
+                          <div class="col py-3 py-lg-0">
+                            <div class="card border-0 overflow-hidden">
+                              <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/banner/banner-88.png" class="card-img" alt="...">
+                              <div class="card-img-overlay p-0 inside">
+                                <h5 class="card-title fw-bold mt-2 ms-4">Covid-19</h5>
+                                <h3 class="fw-bold ms-4">Hand Gloves<br> & Sanitizer</h3>
+                                <h1 class="off fw-bold  display-5 ">20% OFF</h1>
+                              </div>
+                            </div>
+                          </div>
+                       </div>
+                    </div>
+                </div>
+</section>
+
+<section class="online mt-5 pt-md-5">
+              <div class="container">
+                  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center">
+                          <div class="col-lg-4 py-4 py-md-0">
+                              <div class="support d-flex justify-content-center">
+                                  <div class="icon">
+                                      <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/icon-img/shipping-4.png" class="gg" alt="">
+                                  </div>
+                                  <div class="support-content ms-4">
+                                      <h5>Free shipping</h5>
+                                      <p>ALL ORDER OVER $30</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-4 py-4 py-md-0">
+                              <div class="support d-flex justify-content-center">
+                                  <div class="icon">
+                                      <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/icon-img/headphone-4.png" alt="">
+                                  </div>
+                                  <div class="support-content ms-4">
+                                      <h5>Online support</h5>
+                                      <p>SUPPORT 24/7</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-4 py-4 py-md-0">
+                              <div class="support d-flex justify-content-center">
+                                  <div class="icon">
+                                      <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/icon-img/money-4.png" alt="">
+                                  </div>
+                                  <div class="support-content ms-4">
+                                      <h5>100% monney back</h5>
+                                      <p>100% SECURITY</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+</section>
+<section class="products mt-5 pt-4">
+          <div class="container ">
+                      <h2 class="text-center">Our Products</h2>
+                                  
+                     <ul class="nav nav-tabs border-0 justify-content-center mt-3" id="myTab" role="tablist">
+                       <li class="nav-item" role="presentation">
+                          <button class="nav-link border-0 fw-medium p-0 me-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">All</button>
+                       </li>
+                       <li class="nav-item" role="presentation">
+                          <button class="nav-link border-0 fw-medium p-0 mx-3" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Covid-19</button>
+                       </li>
+                       <li class="nav-item" role="presentation">
+                          <button class="nav-link border-0 fw-medium p-0 mx-3" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Medicine</button>
+                       </li>
+                       <li class="nav-item" role="presentation">
+                          <button class="nav-link border-0 fw-medium p-0 ms-3" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" >Equipment</button>
+                       </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent tab">
+                      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4  g-4 p-0 mt-4">
+                          <div class="col">
+                           <div class="card border-0">
+                               <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-1.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay overlay p-0">
+                                <div class="icons">
+                                  <ul class="d-flex p-0 m-0 ">
+                                    <li class="mx-1"><a href="#"  class=""><i class="bi bi-cart-dash-fill"></i></a></li>
+                                    <li class="mx-1"><a href="#"  class=""><i class="bi bi-eye-fill"></i></a></li>
+                                    <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                                </ul>
+                             </div>
+                           </div>
+                        </div>
+                            <div class="card-body d-flex justify-content-between p-0 mt-3">
+                               <div class="title">
+                                 <h6><a href="#" class="hh">Products Title Here</a></h6>
+                                 <h6>$ 50.00 <span class="dollor"> - $ 70.00 </span></h6>
+                               </div>
+                              <div class="heart">
+                                <a href="#" class="hh"><i class="bi bi-heart "></i></a> 
+                              </div>
+                            </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border-0">
+                       <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-2.jpg" class="card-img" alt="...">
+                      <div class="card-img-overlay overlay p-0">
+                               <div class="icons">
+                                    <ul class="d-flex p-0 m-0 ">
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                                  </ul>
+                              </div>
+                            </div>
+                          </div>
+                              <div class="card-body d-flex justify-content-between p-0 mt-3">
+                                <div class="title">
+                                  <h6><a href="#"class="hh">Products Title Here</a></h6>
+                                  <h6>$ 20.00</h6>
+                                </div>
+                                <div class="heart">
+                                  <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                                </div>
+                              </div>
+                        </div>                       
+                        <div class="col">
+                              <div class="card border-0">
+                                 <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-3.jpg" class="card-img" alt="...">
+                                <div class="card-img-overlay overlay p-0">
+                                   <div class="icons">
+                                      <ul class="d-flex p-0 m-0 ">
+                                        <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                        <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                        <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                                    </ul>
+                                </div>
+                              </div>
+                            </div>
+                                <div class="card-body d-flex justify-content-between p-0 mt-3">
+                                  <div class="title">
+                                    <h6><a href="#"class="hh">Products Title Here</a></h6>
+                                    <h6>$ 30.00</h6>
+                                  </div>
+                                  <div class="heart">
+                                    <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                                  </div>
+                                </div>
+                        </div>
+                        <div class="col">
+                            <div class="card border-0">
+                               <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-4.jpg" class="card-img" alt="...">
+                              <div class="card-img-overlay overlay p-0">
+                                 <div class="icons">
+                                    <ul class="d-flex p-0 m-0 ">
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                                  </ul>
+                              </div>
+                            </div>
+                          </div>
+                              <div class="card-body d-flex justify-content-between p-0 mt-3">
+                                <div class="title">
+                                  <h6><a href="#" class="hh">Products Title Here</a></h6>
+                                  <h6>$ 40.00</h6>
+                                </div>
+                                <div class="heart">
+                                  <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                                </div>
+                              </div>
+                          </div>   
+                      </div>
+                      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 p-0 mt-4">
+                      <div class="col">
+                        <div class="card border-0">
+                           <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-5.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay overlay p-0">
+                          <div class="icons">
+                            <ul class="d-flex p-0 m-0 ">
+                              <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                              <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                              <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                          </ul>
+                       </div>
+                     </div>
+                  </div>
+                      <div class="card-body d-flex justify-content-between p-0 mt-3">
+                         <div class="title">
+                           <h6><a href="#" class="hh">Products Title Here</a></h6>
+                           <h6>$ 50.00 <span class="dollor"> - $ 70.00 </span></h6>
+                         </div>
+                        <div class="heart">
+                          <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                        </div>
+                      </div>
+            </div>
+            <div class="col">
+              <div class="card border-0">
+                 <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-6.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay overlay p-0">
+                         <div class="icons">
+                              <ul class="d-flex p-0 m-0 ">
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                        <div class="card-body d-flex justify-content-between p-0 mt-3">
+                          <div class="title">
+                            <h6><a href="#"class="hh">Products Title Here</a></h6>
+                            <h6>$ 50.00</h6>
+                          </div>
+                          <div class="heart">
+                            <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                          </div>
+                        </div>
+                   </div>                       
+                  <div class="col">
+                         <div class="card border-0">
+                            <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-7.jpg" class="card-img" alt="...">
+                          <div class="card-img-overlay overlay p-0">
+                             <div class="icons">
+                                <ul class="d-flex p-0 m-0 ">
+                                  <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                  <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                  <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                              </ul>
+                          </div>
+                        </div>
+                      </div>
+                          <div class="card-body d-flex justify-content-between p-0 mt-3">
+                            <div class="title">
+                              <h6><a href="#"class="hh">Products Title Here</a></h6>
+                              <h6>$ 60.00</h6>
+                            </div>
+                            <div class="heart">
+                              <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                            </div>
+                        </div>
+                </div>
+                <div class="col">
+                      <div class="card border-0">
+                        <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-8.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay overlay p-0">
+                           <div class="icons">
+                              <ul class="d-flex p-0 m-0 ">
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                        <div class="card-body d-flex justify-content-between p-0 mt-3">
+                          <div class="title">
+                            <h6><a href="#" class="hh">Products Title Here</a></h6>
+                            <h6>$ 70.00</h6>
+                          </div>
+                          <div class="heart">
+                            <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                          </div>
+                        </div>
+                      </div>   
+                   </div>                       
+                 </div>
+                 <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 p-0 mt-4">
+                          <div class="col">
+                          <div class="card border-0">
+                             <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-8.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay overlay p-0">
+                                <div class="icons">
+                                  <ul class="d-flex p-0 m-0 ">
+                                    <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                    <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                    <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                                </ul>
+                             </div>
+                           </div>
+                        </div>
+                            <div class="card-body d-flex justify-content-between p-0 mt-3">
+                               <div class="title">
+                                 <h6><a href="#" class="hh">Products Title Here</a></h6>
+                                 <h6>$ 60.00 <span class="dollor"> - $ 60.00 </span></h6>
+                               </div>
+                              <div class="heart">
+                                <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                              </div>
+                            </div>
+                  </div>
+                  <div class="col">
+                      <div class="card border-0">
+                            <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-7.jpg" class="card-img" alt="...">
+                          <div class="card-img-overlay overlay p-0">
+                                <div class="icons">
+                                    <ul class="d-flex p-0 m-0 ">
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                                  </ul>
+                              </div>
+                            </div>
+                          </div>
+                              <div class="card-body d-flex justify-content-between p-0 mt-3">
+                                <div class="title">
+                                  <h6><a href="#"class="hh">Products Title Here</a></h6>
+                                  <h6>$ 20.00</h6>
+                                </div>
+                                <div class="heart">
+                                  <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                                </div>
+                              </div>
+                         </div>                       
+                         <div class="col">
+                              <div class="card border-0">
+                                <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-6.jpg" class="card-img" alt="...">
+                                <div class="card-img-overlay overlay p-0">
+                                  <div class="icons">
+                                      <ul class="d-flex p-0 m-0 ">
+                                        <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                        <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                        <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                                    </ul>
+                                </div>
+                              </div>
+                            </div>
+                                <div class="card-body d-flex justify-content-between p-0 mt-3">
+                                  <div class="title">
+                                    <h6><a href="#"class="hh">Products Title Here</a></h6>
+                                    <h6>$ 30.00</h6>
+                                  </div>
+                                  <div class="heart">
+                                    <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                                  </div>
+                              </div>
+                        </div>
+                       <div class="col">
+                            <div class="card border-0">
+                              <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-5.jpg" class="card-img" alt="...">
+                              <div class="card-img-overlay overlay p-0">
+                                  <div class="icons">
+                                    <ul class="d-flex p-0 m-0 ">
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                                  </ul>
+                              </div>
+                            </div>
+                          </div>
+                              <div class="card-body d-flex justify-content-between p-0 mt-3">
+                                <div class="title">
+                                  <h6><a href="#" class="hh">Products Title Here</a></h6>
+                                  <h6>$ 40.00</h6>
+                                </div>
+                                <div class="heart">
+                                  <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                                </div>
+                             </div>
+                         </div>   
+                   </div>
+                   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 p-0 mt-4">
+                      <div class="col">
+                        <div class="card border-0">
+                          <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-4.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay overlay p-0">
+                          <div class="icons">
+                            <ul class="d-flex p-0 m-0 ">
+                              <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                              <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                              <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                          </ul>
+                       </div>
+                     </div>
+                  </div>
+                      <div class="card-body d-flex justify-content-between p-0 mt-3">
+                         <div class="title">
+                           <h6><a href="#" class="hh">Products Title Here</a></h6>
+                           <h6>$ 50.00 <span class="dollor"> - $ 70.00 </span></h6>
+                         </div>
+                        <div class="heart">
+                          <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                        </div>
+                    </div>
+               </div>
+             <div class="col">
+                 <div class="card border-0">
+                     <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-3.jpg" class="card-img" alt="...">
+                       <div class="card-img-overlay overlay p-0">
+                           <div class="icons">
+                              <ul class="d-flex p-0 m-0 ">
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                        <div class="card-body d-flex justify-content-between p-0 mt-3">
+                          <div class="title">
+                            <h6><a href="#"class="hh">Products Title Here</a></h6>
+                            <h6>$ 50.00</h6>
+                          </div>
+                          <div class="heart">
+                            <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                          </div>
+                      </div>
+                 </div>                       
+                  <div class="col">
+                        <div class="card border-0">
+                          <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-2.jpg" class="card-img" alt="...">
+                           <div class="card-img-overlay overlay p-0">
+                              <div class="icons">
+                                <ul class="d-flex p-0 m-0 ">
+                                  <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                  <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                  <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                              </ul>
+                          </div>
+                        </div>
+                      </div>
+                          <div class="card-body d-flex justify-content-between p-0 mt-3">
+                            <div class="title">
+                              <h6><a href="#"class="hh">Products Title Here</a></h6>
+                              <h6>$ 60.00</h6>
+                            </div>
+                            <div class="heart">
+                              <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                            </div>
+                          </div>
+                      </div>
+                <div class="col">
+                      <div class="card border-0">
+                        <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-1.jpg" class="card-img" alt="...">
+                         <div class="card-img-overlay overlay p-0">
+                           <div class="icons">
+                              <ul class="d-flex p-0 m-0 ">
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                        <div class="card-body d-flex justify-content-between p-0 mt-3">
+                          <div class="title">
+                            <h6><a href="#" class="hh">Products Title Here</a></h6>
+                            <h6>$ 70.00</h6>
+                          </div>
+                          <div class="heart">
+                            <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                          </div>
+                        </div>
+                    </div>   
+                 </div>                          
+              </div> 
+                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 p-0 mt-4">
+                          <div class="col">
+                          <div class="card border-0">
+                             <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-4.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay overlay p-0">
+                               <div class="icons">
+                                  <ul class="d-flex p-0 m-0 ">
+                                    <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                    <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                    <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                                </ul>
+                             </div>
+                           </div>
+                        </div>
+                            <div class="card-body d-flex justify-content-between p-0 mt-3">
+                               <div class="title">
+                                 <h6><a href="#" class="hh">Products Title Here</a></h6>
+                                 <h6>$ 60.00 <span class="dollor"> - $ 60.00 </span></h6>
+                               </div>
+                              <div class="heart">
+                                <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                              </div>
+                            </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border-0">
+                       <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-3.jpg" class="card-img" alt="...">
+                          <div class="card-img-overlay overlay p-0">
+                               <div class="icons">
+                                    <ul class="d-flex p-0 m-0 ">
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                                  </ul>
+                              </div>
+                            </div>
+                          </div>
+                              <div class="card-body d-flex justify-content-between p-0 mt-3">
+                                <div class="title">
+                                  <h6><a href="#"class="hh">Products Title Here</a></h6>
+                                  <h6>$ 20.00</h6>
+                                </div>
+                                <div class="heart">
+                                  <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                                </div>
+                              </div>
+            </div>                       
+                       <div class="col">
+                              <div class="card border-0">
+                                <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-1.jpg" class="card-img" alt="...">
+                                  <div class="card-img-overlay overlay p-0">
+                                   <div class="icons">
+                                      <ul class="d-flex p-0 m-0 ">
+                                        <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                        <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                        <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                                    </ul>
+                                </div>
+                              </div>
+                            </div>
+                                <div class="card-body d-flex justify-content-between p-0 mt-3">
+                                  <div class="title">
+                                    <h6><a href="#"class="hh">Products Title Here</a></h6>
+                                    <h6>$ 30.00</h6>
+                                  </div>
+                                  <div class="heart">
+                                    <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                                  </div>
+                                </div>
+                        </div>
+                       <div class="col">
+                            <div class="card border-0">
+                              <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-2.jpg" class="card-img" alt="...">
+                               <div class="card-img-overlay overlay p-0">
+                                 <div class="icons">
+                                    <ul class="d-flex p-0 m-0 ">
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                                  </ul>
+                              </div>
+                            </div>
+                          </div>
+                              <div class="card-body d-flex justify-content-between p-0 mt-3">
+                                <div class="title">
+                                  <h6><a href="#" class="hh">Products Title Here</a></h6>
+                                  <h6>$ 40.00</h6>
+                                </div>
+                                <div class="heart">
+                                  <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                                </div>
+                              </div>
+                       </div>   
+                  </div>
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 p-0 mt-4">
+                     <div class="col">
+                      <div class="card border-0">
+                         <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-8.jpg" class="card-img" alt="...">
+                           <div class="card-img-overlay overlay p-0">
+                            <div class="icons">
+                            <ul class="d-flex p-0 m-0 ">
+                              <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                              <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                              <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                          </ul>
+                       </div>
+                     </div>
+                  </div>
+                      <div class="card-body d-flex justify-content-between p-0 mt-3">
+                         <div class="title">
+                           <h6><a href="#" class="hh">Products Title Here</a></h6>
+                           <h6>$ 50.00 <span class="dollor"> - $ 70.00 </span></h6>
+                         </div>
+                        <div class="heart">
+                          <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                        </div>
+                      </div>
+            </div>
+            <div class="col">
+                  <div class="card border-0">
+                     <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-7.jpg" class="card-img" alt="...">
+                       <div class="card-img-overlay overlay p-0">
+                          <div class="icons">
+                              <ul class="d-flex p-0 m-0 ">
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                        <div class="card-body d-flex justify-content-between p-0 mt-3">
+                          <div class="title">
+                            <h6><a href="#"class="hh">Products Title Here</a></h6>
+                            <h6>$ 50.00</h6>
+                          </div>
+                          <div class="heart">
+                            <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                          </div>
+                        </div>
+                 </div>                       
+                   <div class="col">
+                        <div class="card border-0">
+                          <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-5.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay overlay p-0">
+                              <div class="icons">
+                                <ul class="d-flex p-0 m-0 ">
+                                  <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                  <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                  <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                              </ul>
+                          </div>
+                        </div>
+                      </div>
+                          <div class="card-body d-flex justify-content-between p-0 mt-3">
+                            <div class="title">
+                              <h6><a href="#"class="hh">Products Title Here</a></h6>
+                              <h6>$ 60.00</h6>
+                            </div>
+                            <div class="heart">
+                              <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                            </div>
+                          </div>
+                </div>
+                <div class="col">
+                      <div class="card border-0">
+                        <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-6.jpg" class="card-img" alt="...">
+                          <div class="card-img-overlay overlay p-0">
+                            <div class="icons">
+                              <ul class="d-flex p-0 m-0 ">
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                        <div class="card-body d-flex justify-content-between p-0 mt-3">
+                          <div class="title">
+                            <h6><a href="#" class="hh">Products Title Here</a></h6>
+                            <h6>$ 70.00</h6>
+                          </div>
+                          <div class="heart">
+                            <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                          </div>
+                        </div>
+                   </div>   
+               </div> 
+           </div>
+                    <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 p-0 mt-4">
+                          <div class="col">
+                          <div class="card border-0">
+                             <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-5.jpg" class="card-img" alt="...">
+                              <div class="card-img-overlay overlay p-0">
+                                <div class="icons">
+                                  <ul class="d-flex p-0 m-0 ">
+                                    <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                    <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                    <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                                </ul>
+                             </div>
+                           </div>
+                        </div>
+                            <div class="card-body d-flex justify-content-between p-0 mt-3">
+                               <div class="title">
+                                 <h6><a href="#" class="hh">Products Title Here</a></h6>
+                                 <h6>$ 60.00 <span class="dollor"> - $ 60.00 </span></h6>
+                               </div>
+                              <div class="heart">
+                                <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                              </div>
+                            </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border-0">
+                        <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-4.jpg" class="card-img" alt="...">
+                           <div class="card-img-overlay overlay p-0">
+                                 <div class="icons">
+                                    <ul class="d-flex p-0 m-0 ">
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                                  </ul>
+                              </div>
+                            </div>
+                          </div>
+                              <div class="card-body d-flex justify-content-between p-0 mt-3">
+                                <div class="title">
+                                  <h6><a href="#"class="hh">Products Title Here</a></h6>
+                                  <h6>$ 20.00</h6>
+                                </div>
+                                <div class="heart">
+                                  <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                                </div>
+                              </div>
+                       </div>                       
+                       <div class="col">
+                              <div class="card border-0">
+                                <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-3.jpg" class="card-img" alt="...">
+                                <div class="card-img-overlay overlay p-0">
+                                  <div class="icons">
+                                      <ul class="d-flex p-0 m-0 ">
+                                        <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                        <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                        <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                                    </ul>
+                                </div>
+                              </div>
+                            </div>
+                                <div class="card-body d-flex justify-content-between p-0 mt-3">
+                                  <div class="title">
+                                    <h6><a href="#"class="hh">Products Title Here</a></h6>
+                                    <h6>$ 30.00</h6>
+                                  </div>
+                                  <div class="heart">
+                                    <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                                  </div>
+                                </div>
+                        </div>
+                       <div class="col">
+                            <div class="card border-0">
+                              <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-2.jpg" class="card-img" alt="...">
+                                <div class="card-img-overlay overlay p-0">
+                                  <div class="icons">
+                                    <ul class="d-flex p-0 m-0 ">
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                                  </ul>
+                              </div>
+                            </div>
+                          </div>
+                              <div class="card-body d-flex justify-content-between p-0 mt-3">
+                                <div class="title">
+                                  <h6><a href="#" class="hh">Products Title Here</a></h6>
+                                  <h6>$ 40.00</h6>
+                                </div>
+                                <div class="heart">
+                                  <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                                </div>
+                              </div>
+                         </div>   
+                     </div>
+                   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 p-0 mt-4">
+                    <div class="col">
+                    <div class="card border-0">
+                       <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-1.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay overlay p-0">
+                          <div class="icons">
+                            <ul class="d-flex p-0 m-0 ">
+                              <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                              <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                              <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                          </ul>
+                       </div>
+                     </div>
+                  </div>
+                      <div class="card-body d-flex justify-content-between p-0 mt-3">
+                         <div class="title">
+                           <h6><a href="#" class="hh">Products Title Here</a></h6>
+                           <h6>$ 50.00 <span class="dollor"> - $ 70.00 </span></h6>
+                         </div>
+                        <div class="heart">
+                          <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                        </div>
+                      </div>
+            </div>
+            <div class="col">
+                  <div class="card border-0">
+                     <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-8.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay overlay p-0">
+                            <div class="icons">
+                              <ul class="d-flex p-0 m-0 ">
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                        <div class="card-body d-flex justify-content-between p-0 mt-3">
+                          <div class="title">
+                            <h6><a href="#"class="hh">Products Title Here</a></h6>
+                            <h6>$ 50.00</h6>
+                          </div>
+                          <div class="heart">
+                            <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                          </div>
+                        </div>
+                 </div>                       
+                   <div class="col">
+                        <div class="card border-0">
+                          <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-7.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay overlay p-0">
+                              <div class="icons">
+                                <ul class="d-flex p-0 m-0 ">
+                                  <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                  <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                  <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                              </ul>
+                          </div>
+                        </div>
+                      </div>
+                          <div class="card-body d-flex justify-content-between p-0 mt-3">
+                            <div class="title">
+                              <h6><a href="#"class="hh">Products Title Here</a></h6>
+                              <h6>$ 60.00</h6>
+                            </div>
+                            <div class="heart">
+                              <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                            </div>
+                          </div>
+                </div>
+                <div class="col">
+                      <div class="card border-0">
+                        <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-6.jpg" class="card-img" alt="...">
+                          <div class="card-img-overlay overlay p-0">
+                            <div class="icons">
+                              <ul class="d-flex p-0 m-0 ">
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                        <div class="card-body d-flex justify-content-between p-0 mt-3">
+                          <div class="title">
+                            <h6><a href="#" class="hh">Products Title Here</a></h6>
+                            <h6>$ 70.00</h6>
+                          </div>
+                          <div class="heart">
+                            <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                          </div>
+                        </div>
+                    </div>   
+                </div>    
+             </div> 
+         </div>
+      </div>      
+</section>
+<section class="medix mt-5 pt-5">
+               <div class="main-box d-flex">
+                <div class="card box-1 box border-0 mt-4 mt-md-0 overflow-hidden">
+                  <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/banner/banner-89.png" class="card-img" alt="...">
+                  <div class="card-img-overlay p-0 ">
+                    <div class="up upp text-white ">
+                      <h5 class="card-title fw-bold mt-md-3">Covid - 19</h5>
+                      <h2 class="card-text fw-bold">Medix Mask <br> Up To 40% Off </h2>
+                      <div class="btn py-0 fw-medium fs-5 px-0">Shop Now</div>
+                  </div>
+                  </div>                      
+                </div>
+                <div class="card box-2 box border-0 mt-4 mt-md-0 overflow-hidden">
+                  <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/banner/banner-90.png" class="card-img" alt="...">
+                  <div class="card-img-overlay p-0 ">
+                    <div class="up text-white text-center">
+                       <h2 class="card-text fw-bold mt-4">Hand Gloves <br> Up To 30% Off </h2>
+                      <div class="btn py-0 fw-medium fs-5 px-0">Shop Now</div>
+                  </div>
+                  </div>                      
+                </div>
+                <div class="card box-3 box border-0 mt-4 mt-md-0 overflow-hidden">
+                  <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/banner/banner-91.png" class="card-img" alt="...">
+                  <div class="card-img-overlay p-0">
+                    <div class="up hand text-white ms-5">
+                      <h5 class="card-title fw-bold mt-4">Covid - 19</h5>
+                      <h2 class="card-text fw-bold">Hand Sanitizer <br> Up To 40% Off </h2>
+                      <div class="btn py-0 fw-medium fs-5 px-0">Shop Now</div>
+                  </div>
+                  </div>                      
+                </div>
+               </div>      
+</section>
+<section class="products mt-5 pt-5">
+       <div class="container">
+           <h1 class="fw-medium text-center">New Products</h1>
+                      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 p-0 mt-4">
+                        <div class="col">
+                        <div class="card border-0">
+                          <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-9.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay overlay p-0">
+                             <div class="icons">
+                                <ul class="d-flex p-0 m-0 ">
+                                  <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                  <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                  <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                              </ul>
+                          </div>
+                        </div>
+                      </div>
+                          <div class="card-body d-flex justify-content-between p-0 mt-3">
+                            <div class="title">
+                              <h6><a href="#" class="hh">Products Title Here</a></h6>
+                              <h6>$ 60.00 <span class="dollor"> - $ 60.00 </span></h6>
+                            </div>
+                            <div class="heart">
+                              <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                            </div>
+                          </div>
+                </div>
+                <div class="col">
+                      <div class="card border-0">
+                        <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-3.jpg" class="card-img" alt="...">
+                           <div class="card-img-overlay overlay p-0">
+                               <div class="icons">
+                                  <ul class="d-flex p-0 m-0 ">
+                                    <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                    <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                    <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+                            <div class="card-body d-flex justify-content-between p-0 mt-3">
+                              <div class="title">
+                                <h6><a href="#"class="hh">Products Title Here</a></h6>
+                                <h6>$ 20.00</h6>
+                              </div>
+                              <div class="heart">
+                                <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                              </div>
+                            </div>
+                    </div>                       
+                      <div class="col">
+                            <div class="card border-0">
+                              <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-10.jpg" class="card-img" alt="...">
+                                <div class="card-img-overlay overlay p-0">
+                                  <div class="icons">
+                                    <ul class="d-flex p-0 m-0 ">
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                      <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                                  </ul>
+                              </div>
+                            </div>
+                          </div>
+                              <div class="card-body d-flex justify-content-between p-0 mt-3">
+                                <div class="title">
+                                  <h6><a href="#"class="hh">Products Title Here</a></h6>
+                                  <h6>$ 80.00 <span class="dollor"> - $ 90.00 </span></h6>
+                                </div>
+                                <div class="heart">
+                                  <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                                </div>
+                              </div>
+                    </div>
+                    <div class="col">
+                          <div class="card border-0">
+                            <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/product/hm33-pro-11.jpg" class="card-img" alt="...">
+                              <div class="card-img-overlay overlay p-0">
+                                <div class="icons">
+                                  <ul class="d-flex p-0 m-0 ">
+                                    <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-cart-dash-fill"></i></a></li>
+                                    <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-eye-fill"></i></a></li>
+                                    <li class="mx-1"><a href="#"  class="text-white"><i class="bi bi-arrow-repeat"></i></a></li>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+                            <div class="card-body d-flex justify-content-between p-0 mt-3">
+                              <div class="title">
+                                <h6><a href="#" class="hh">Products Title Here</a></h6>
+                                <h6>$ 40.00</h6>
+                              </div>
+                              <div class="heart">
+                                <a href="#" class="hh"><i class="bi bi-heart"></i></a> 
+                              </div>
+                            </div>
+                        </div>   
+                    </div>
+  </div>
+</section>
+<section class="recent mt-5 pt-3">
+            <div class="container">
+                           <h2 class="fw-medium text-center fs-1">Recent Post</h2>
+                            <p class="text-center mt-3 fw-medium text-body-secondary mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua.</p>
+                           <div class="row row-cols-1  row-cols-md-2  row-cols-lg-3  mt-5 mx-0">
+                                  <div class="col  px-2">
+                                      <div class="overflow-hidden card card-18 border-0 ">
+                                          <img class="card-img" src="https://demo.hasthemes.com/flone-preview/flone/assets/img/blog/blog-13.jpg" alt="">
+                                          <div class="medical">
+                                            <p>Medical</p>
+                                          </div>
+                                      </div>
+                                          <div class="lorem">
+                                          <h5>Lorem ipsum dolor sit  amet consec.</h5>
+                                          <p class="admin">By Shop <span class="admin"> <a href="#">Admin</a></span> </p>
+                                        </div>
+                                  </div>
+                                  <div class="col  px-2">
+                                      <div class="overflow-hidden card card-18 border-0">
+                                          <img class="card-img" src="https://demo.hasthemes.com/flone-preview/flone/assets/img/blog/blog-14.jpg" alt="">
+                                        <div class="medical">
+                                          <p>Medical</p>
+                                        </div>
+                                     </div>
+                                       <div class="lorem">
+                                         <h5>Lorem ipsum dolor sit  amet consec.</h5>
+                                         <p class="admin">By Shop <span class="admin"> <a href="#">Admin</a></span> </p>
+                                      </div>
+                                 </div>
+                                 <div class="col  px-2">
+                                     <div class="card card-18 border-0 overflow-hidden">
+                                        <img class="card-img" src="https://demo.hasthemes.com/flone-preview/flone/assets/img/blog/blog-15.jpg" alt="">
+                                       <div class="medical">
+                                        <p>Medical</p>
+                                       </div>
+                                    </div>
+                                    <div class="lorem">
+                                        <h5>Lorem ipsum dolor sit  amet consec.</h5>
+                                        <p class="admin">By Shop <span class="admin"> <a href="#">Admin</a></span> </p>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+</section>
+<section class="order">
+                      <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3  mx-0 align-items-center">
+                          <div class="col-lg-4 px-0 py-3 py-md-0">
+                            <div class="please">
+                              <div class="heading d-flex justify-content-center text-white"><h3>Please Call</h3> </div>
+                             <div class="heading d-flex justify-content-center text-white"><h2>Emergency Order</h2> </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 px-0 py-3 py-md-0">
+                            <div class="please justify-content-center d-flex">
+                              <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/icon-img/medical-contact-shape.png" alt="">
+                          </div>
+                        </div>
+                          <div class="col-lg-4 px-0 py-3 py-md-0">
+                               <div class="handfree d-flex justify-content-center ">
+                                <img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/icon-img/medical-contact.png" alt="">
+                                <h4 class="text-white ms-3">+92-325-7992206</h4>
+                              </div>
+                          </div>
+                     </div>
+</section>
+<footer class="footer pt-5 pb-5">
+   <div class="container ">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+      <div class="col-lg-2 align-content-center ps-4 ps-md-0">
+       <a href="#"><img src="https://demo.hasthemes.com/flone-preview/flone/assets/img/logo/logo.png" alt=""></a> 
+        <p class="mb-0 mt-3 fw-medium text-body-secondary">© 2020 Flone.</p>
+        <p class="fw-medium text-body-secondary">All Rights Reserved</p>
+      </div>
+      <div class="col-lg-2 ps-4 ps-md-0">
+        <div class="ul">
+          <h6 class="fw-medium mb-4 mt-3 ">ABOUT US</h6>
+          <li><a href="#" class="fw-medium lh-lg">About us</a></li>
+          <li><a href="#" class="fw-medium lh-lg">Store Location</a></li>
+          <li><a href="#" class="fw-medium lh-lg">Contact</a></li>
+          <li><a href="#" class="fw-medium lh-lg">Orders Tracting</a></li>
+        </div>
+      </div>
+      <div class="col-lg-2 ps-4 ps-md-0">
+        <div class="ul">
+          <h6 class="fw-medium mb-4 mt-3">USEFUL LINKS</h6>
+          <li><a href="#" class="fw-medium lh-lg">Returns</a></li>
+          <li><a href="#" class="fw-medium lh-lg">Support Policy</a></li>
+          <li><a href="#" class="fw-medium lh-lg">Size guide</a></li>
+          <li><a href="#" class="fw-medium lh-lg">FAQs</a></li>
+        </div>
+      </div>
+      <div class="col-lg-2 ps-4 ps-md-0">
+        <div class="ul">
+          <h6 class="fw-medium mb-4 mt-3 " >FOLLOW US</h6>
+          <li><a href="#" class="fw-medium lh-lg">Facebook</a></li>
+          <li><a href="#" class="fw-medium lh-lg">Twitter</a></li>
+          <li><a href="#" class="fw-medium lh-lg">Instagram</a></li>
+          <li><a href="#" class="fw-medium lh-lg">Youtube</a></li>
+        </div>
+      </div>
+        <div class="col-lg-4 ps-4 ps-md-0">
+             <h6 class="fw-medium mb-4 mt-3">SUBSCRIBE</h6>
+             <p class="fw-medium text-body-secondary">Get E-mail updates about our latest shop and special offers.</p>
+             <input class="email d-block" type="email" required="" placeholder="Enter your email here.." name="EMAIL" value="">
+             <div class="btn fw-medium px-0 py-0   mt-3">SUBSCRIBE</div>
+          </div>
+       </div>
+   </div>
+</footer>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
